@@ -1,0 +1,10 @@
+# Пример файла .env для настройки OpenAI API
+# Скопируйте этот файл в корень проекта и замените your_openai_api_key_here на ваш реальный API ключ
+
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Инструкции:
+# 1. Получите API ключ на https://platform.openai.com/api-keys
+# 2. Скопируйте этот файл в корень проекта: cp examples/env_example.txt .env
+# 3. Отредактируйте .env файл и вставьте ваш API ключ
+# 4. Убедитесь, что .env файл добавлен в .gitignore (не попадет в репозиторий)
