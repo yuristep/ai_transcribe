@@ -1,0 +1,183 @@
+2025-09-26 13:11:40,477 - INFO - Логирование настроено. Файл лога: log\session_20250926_131140.log
+2025-09-26 13:11:40,478 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ЛЮБОВЬ.mp3
+2025-09-26 13:11:40,479 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 2, 'overlap': 0.25, 'jobs': 4}
+2025-09-26 13:11:40,479 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла: examples\ЛЮБОВЬ.mp3
+2025-09-26 13:11:40,479 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 13:11:42,577 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 13:11:42,577 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ЛЮБОВЬ.mp3
+2025-09-26 13:12:42,096 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\ЛЮБОВЬ_vocals.mp3
+2025-09-26 13:12:42,096 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 13:12:42,097 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 13:12:42,643 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-d92915bd-3f4e-4acc-a602-1f1d00b06738', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 13:12:42,742 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:42,743 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-09-26 13:12:47,884 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023D1F8CFCB0>
+2025-09-26 13:12:47,884 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023D1918F380> server_hostname='api.openai.com' timeout=5.0
+2025-09-26 13:12:47,963 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023D3141CB90>
+2025-09-26 13:12:47,963 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:47,964 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:47,964 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,407 - DEBUG - send_request_body.complete
+2025-09-26 13:12:48,407 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,489 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Set-Cookie', b'__cf_bm=eXwNxN.ImH1Vr8z_Jz5_xCpaYVTozJ42lqS3vXqowMk-1758881568-1.0.1.1-4Fq2JIw311J1oHLRelIiTxvhxj2rhlTr2Yv8_Rx4KfEp2NB_Ky6nEBFM1wd7YzqNrgBYdnvbR8v3bo2TQGuMT4_o1igRsx5LMDgjNpOrAhM; path=/; expires=Fri, 26-Sep-25 10:42:48 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2808e6271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:48,490 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:48,490 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,491 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:48,491 - DEBUG - response_closed.started
+2025-09-26 13:12:48,491 - DEBUG - response_closed.complete
+2025-09-26 13:12:48,491 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'set-cookie': '__cf_bm=eXwNxN.ImH1Vr8z_Jz5_xCpaYVTozJ42lqS3vXqowMk-1758881568-1.0.1.1-4Fq2JIw311J1oHLRelIiTxvhxj2rhlTr2Yv8_Rx4KfEp2NB_Ky6nEBFM1wd7YzqNrgBYdnvbR8v3bo2TQGuMT4_o1igRsx5LMDgjNpOrAhM; path=/; expires=Fri, 26-Sep-25 10:42:48 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2808e6271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:48,492 - DEBUG - request_id: None
+2025-09-26 13:12:48,492 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:48,523 - DEBUG - Not retrying
+2025-09-26 13:12:48,523 - DEBUG - Re-raising status error
+2025-09-26 13:12:48,524 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: '' (длина: 0)
+2025-09-26 13:12:48,525 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 2 - альтернативный язык: en
+2025-09-26 13:12:48,525 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-d39aebdc-58f3-4905-8b5d-88e8572f793a', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'en', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 13:12:48,526 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:48,526 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,527 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:48,527 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,529 - DEBUG - send_request_body.complete
+2025-09-26 13:12:48,530 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,680 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2b88bd271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:48,681 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:48,681 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,681 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:48,681 - DEBUG - response_closed.started
+2025-09-26 13:12:48,682 - DEBUG - response_closed.complete
+2025-09-26 13:12:48,682 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2b88bd271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:48,682 - DEBUG - request_id: None
+2025-09-26 13:12:48,682 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:48,683 - DEBUG - Not retrying
+2025-09-26 13:12:48,683 - DEBUG - Re-raising status error
+2025-09-26 13:12:48,684 - DEBUG - ТРАНСКРИПЦИЯ: Результат 2: '' (длина: 0)
+2025-09-26 13:12:48,684 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-e48529bc-8026-4bb3-8b6b-39663953670e', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 13:12:48,685 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:48,685 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,685 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:48,686 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,689 - DEBUG - send_request_body.complete
+2025-09-26 13:12:48,689 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,775 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2c8afb271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:48,776 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:48,776 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,776 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:48,776 - DEBUG - response_closed.started
+2025-09-26 13:12:48,776 - DEBUG - response_closed.complete
+2025-09-26 13:12:48,777 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2c8afb271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:48,777 - DEBUG - request_id: None
+2025-09-26 13:12:48,777 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:48,778 - DEBUG - Not retrying
+2025-09-26 13:12:48,778 - DEBUG - Re-raising status error
+2025-09-26 13:12:48,778 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 4 - музыкальный промпт
+2025-09-26 13:12:48,778 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-ad7da28a-a611-4af1-aa33-9e0d0c301913', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Это музыкальная композиция с вокалом. Распознай ВСЕ слова песни от начала до конца. Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не интерпретируй, не сокращай. Внимательно слушай начало песни - там тоже есть слова. Если есть повторяющийся припев - распознай ВСЕ повторения полностью. Если это инструментальная музыка без слов - верни пустую строку. ВАЖНО: Распознай весь текст песни, включая все куплеты и припевы. Не останавливайся на первом фрагменте - слушай до конца.', 'response_format': 'text'}}
+2025-09-26 13:12:48,779 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:48,779 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,780 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:48,780 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,782 - DEBUG - send_request_body.complete
+2025-09-26 13:12:48,782 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,867 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2d2c5c271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:48,867 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:48,867 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,868 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:48,868 - DEBUG - response_closed.started
+2025-09-26 13:12:48,868 - DEBUG - response_closed.complete
+2025-09-26 13:12:48,868 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2d2c5c271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:48,868 - DEBUG - request_id: None
+2025-09-26 13:12:48,869 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:48,869 - DEBUG - Not retrying
+2025-09-26 13:12:48,869 - DEBUG - Re-raising status error
+2025-09-26 13:12:48,870 - DEBUG - ТРАНСКРИПЦИЯ: Результат музыкального промпта: '' (длина: 0)
+2025-09-26 13:12:48,870 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 5 - английский язык с музыкальным промптом
+2025-09-26 13:12:48,870 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-86f6760c-3ee5-48e5-8fda-0ec00b67e2c5', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'en', 'prompt': 'Это музыкальная композиция с вокалом. Распознай ВСЕ слова песни от начала до конца. Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не интерпретируй, не сокращай. Внимательно слушай начало песни - там тоже есть слова. Если есть повторяющийся припев - распознай ВСЕ повторения полностью. Если это инструментальная музыка без слов - верни пустую строку. ВАЖНО: Распознай весь текст песни, включая все куплеты и припевы. Не останавливайся на первом фрагменте - слушай до конца.', 'response_format': 'text'}}
+2025-09-26 13:12:48,871 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:48,871 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,872 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:48,872 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,874 - DEBUG - send_request_body.complete
+2025-09-26 13:12:48,875 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,961 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:48 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2dbd95271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:48,962 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:48,962 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:48,962 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:48,963 - DEBUG - response_closed.started
+2025-09-26 13:12:48,963 - DEBUG - response_closed.complete
+2025-09-26 13:12:48,963 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:48 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2dbd95271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:48,963 - DEBUG - request_id: None
+2025-09-26 13:12:48,964 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:48,964 - DEBUG - Not retrying
+2025-09-26 13:12:48,965 - DEBUG - Re-raising status error
+2025-09-26 13:12:48,965 - DEBUG - ТРАНСКРИПЦИЯ: Результат английского музыкального промпта: '' (длина: 0)
+2025-09-26 13:12:48,965 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 13:12:48,966 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 13:12:48,966 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 13:12:48,966 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ.mp3'>)))], 'idempotency_key': 'stainless-python-retry-285f785a-3bcd-48e7-b3aa-26fa8dd6b5b5', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 13:12:48,967 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 13:12:48,968 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:48,968 - DEBUG - send_request_headers.complete
+2025-09-26 13:12:48,968 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 13:12:49,044 - DEBUG - send_request_body.complete
+2025-09-26 13:12:49,044 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 13:12:49,125 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 403, b'Forbidden', [(b'Date', b'Fri, 26 Sep 2025 10:12:49 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Vary', b'Accept-Encoding'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9851fc2e4eec271b-AMS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 13:12:49,126 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 403 Forbidden"
+2025-09-26 13:12:49,126 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 13:12:49,127 - DEBUG - receive_response_body.complete
+2025-09-26 13:12:49,127 - DEBUG - response_closed.started
+2025-09-26 13:12:49,127 - DEBUG - response_closed.complete
+2025-09-26 13:12:49,127 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "403 Forbidden" Headers({'date': 'Fri, 26 Sep 2025 10:12:49 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'vary': 'Accept-Encoding', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9851fc2e4eec271b-AMS', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 13:12:49,127 - DEBUG - request_id: None
+2025-09-26 13:12:49,128 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\openai\_base_client.py", line 1027, in request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://api.openai.com/v1/audio/transcriptions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-09-26 13:12:49,128 - DEBUG - Not retrying
+2025-09-26 13:12:49,129 - DEBUG - Re-raising status error
+2025-09-26 13:12:49,129 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 13:12:49,129 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 13:12:49,129 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт

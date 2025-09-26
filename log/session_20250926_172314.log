@@ -1,0 +1,1080 @@
+2025-09-26 17:23:14,984 - INFO - Логирование настроено. Файл лога: log\session_20250926_172314.log
+2025-09-26 17:23:14,987 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\children-voice.mp3
+2025-09-26 17:23:16,508 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1137)
+           2	RESUME(arg=0, lineno=1137)
+           4	LOAD_FAST(arg=0, lineno=1140)
+           6	LOAD_CONST(arg=1, lineno=1140)
+           8	BINARY_SUBSCR(arg=None, lineno=1140)
+          12	STORE_FAST(arg=3, lineno=1140)
+          14	LOAD_FAST(arg=1, lineno=1141)
+          16	UNARY_NEGATIVE(arg=None, lineno=1141)
+          18	LOAD_FAST(arg=3, lineno=1141)
+          20	SWAP(arg=2, lineno=1141)
+          22	COPY(arg=2, lineno=1141)
+          24	COMPARE_OP(arg=58, lineno=1141)
+          28	POP_JUMP_IF_FALSE(arg=6, lineno=1141)
+          32	LOAD_FAST(arg=1, lineno=1141)
+          34	COMPARE_OP(arg=58, lineno=1141)
+          38	POP_JUMP_IF_FALSE(arg=5, lineno=1141)
+          42	JUMP_FORWARD(arg=2, lineno=1141)
+>         44	POP_TOP(arg=None, lineno=1141)
+          46	JUMP_FORWARD(arg=2, lineno=1141)
+>         48	LOAD_CONST(arg=1, lineno=1142)
+          50	STORE_FAST(arg=3, lineno=1142)
+>         52	LOAD_FAST(arg=0, lineno=1144)
+          54	LOAD_CONST(arg=2, lineno=1144)
+          56	BINARY_SUBSCR(arg=None, lineno=1144)
+          60	STORE_FAST(arg=4, lineno=1144)
+          62	LOAD_FAST(arg=1, lineno=1145)
+          64	UNARY_NEGATIVE(arg=None, lineno=1145)
+          66	LOAD_FAST(arg=4, lineno=1145)
+          68	SWAP(arg=2, lineno=1145)
+          70	COPY(arg=2, lineno=1145)
+          72	COMPARE_OP(arg=58, lineno=1145)
+          76	POP_JUMP_IF_FALSE(arg=6, lineno=1145)
+          80	LOAD_FAST(arg=1, lineno=1145)
+          82	COMPARE_OP(arg=58, lineno=1145)
+          86	POP_JUMP_IF_FALSE(arg=5, lineno=1145)
+          90	JUMP_FORWARD(arg=2, lineno=1145)
+>         92	POP_TOP(arg=None, lineno=1145)
+          94	JUMP_FORWARD(arg=2, lineno=1145)
+>         96	LOAD_CONST(arg=1, lineno=1146)
+          98	STORE_FAST(arg=4, lineno=1146)
+>        100	LOAD_FAST(arg=2, lineno=1148)
+         102	TO_BOOL(arg=None, lineno=1148)
+         110	POP_JUMP_IF_FALSE(arg=45, lineno=1148)
+         114	LOAD_GLOBAL(arg=0, lineno=1149)
+         124	LOAD_ATTR(arg=2, lineno=1149)
+         144	PUSH_NULL(arg=None, lineno=1149)
+         146	LOAD_FAST(arg=3, lineno=1149)
+         148	CALL(arg=1, lineno=1149)
+         156	LOAD_GLOBAL(arg=0, lineno=1149)
+         166	LOAD_ATTR(arg=2, lineno=1149)
+         186	PUSH_NULL(arg=None, lineno=1149)
+         188	LOAD_FAST(arg=4, lineno=1149)
+         190	CALL(arg=1, lineno=1149)
+         198	COMPARE_OP(arg=103, lineno=1149)
+         202	RETURN_VALUE(arg=None, lineno=1149)
+>        204	LOAD_GLOBAL(arg=0, lineno=1151)
+         214	LOAD_ATTR(arg=4, lineno=1151)
+         234	PUSH_NULL(arg=None, lineno=1151)
+         236	LOAD_FAST(arg=3, lineno=1151)
+         238	CALL(arg=1, lineno=1151)
+         246	LOAD_GLOBAL(arg=0, lineno=1151)
+         256	LOAD_ATTR(arg=4, lineno=1151)
+         276	PUSH_NULL(arg=None, lineno=1151)
+         278	LOAD_FAST(arg=4, lineno=1151)
+         280	CALL(arg=1, lineno=1151)
+         288	COMPARE_OP(arg=103, lineno=1151)
+         292	RETURN_VALUE(arg=None, lineno=1151)
+2025-09-26 17:23:16,510 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:23:16,510 - DEBUG - stack: []
+2025-09-26 17:23:16,510 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:23:16,510 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1137)
+2025-09-26 17:23:16,511 - DEBUG - stack []
+2025-09-26 17:23:16,511 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1137)
+2025-09-26 17:23:16,511 - DEBUG - stack []
+2025-09-26 17:23:16,511 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1140)
+2025-09-26 17:23:16,512 - DEBUG - stack []
+2025-09-26 17:23:16,512 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1140)
+2025-09-26 17:23:16,512 - DEBUG - stack ['$x4.0']
+2025-09-26 17:23:16,512 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1140)
+2025-09-26 17:23:16,512 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:23:16,513 - DEBUG - dispatch pc=12, inst=STORE_FAST(arg=3, lineno=1140)
+2025-09-26 17:23:16,513 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:23:16,513 - DEBUG - dispatch pc=14, inst=LOAD_FAST(arg=1, lineno=1141)
+2025-09-26 17:23:16,513 - DEBUG - stack []
+2025-09-26 17:23:16,513 - DEBUG - dispatch pc=16, inst=UNARY_NEGATIVE(arg=None, lineno=1141)
+2025-09-26 17:23:16,513 - DEBUG - stack ['$threshold14.3']
+2025-09-26 17:23:16,513 - DEBUG - dispatch pc=18, inst=LOAD_FAST(arg=3, lineno=1141)
+2025-09-26 17:23:16,514 - DEBUG - stack ['$16unary_negative.4']
+2025-09-26 17:23:16,514 - DEBUG - dispatch pc=20, inst=SWAP(arg=2, lineno=1141)
+2025-09-26 17:23:16,514 - DEBUG - stack ['$16unary_negative.4', '$x018.5']
+2025-09-26 17:23:16,514 - DEBUG - dispatch pc=22, inst=COPY(arg=2, lineno=1141)
+2025-09-26 17:23:16,514 - DEBUG - stack ['$x018.5', '$16unary_negative.4']
+2025-09-26 17:23:16,514 - DEBUG - dispatch pc=24, inst=COMPARE_OP(arg=58, lineno=1141)
+2025-09-26 17:23:16,514 - DEBUG - stack ['$x018.5', '$16unary_negative.4', '$x018.5']
+2025-09-26 17:23:16,514 - DEBUG - dispatch pc=28, inst=POP_JUMP_IF_FALSE(arg=6, lineno=1141)
+2025-09-26 17:23:16,514 - DEBUG - stack ['$x018.5', '$24compare_op.6']
+2025-09-26 17:23:16,515 - DEBUG - end state. edges=[Edge(pc=32, stack=('$x018.5',), blockstack=(), npush=0), Edge(pc=44, stack=('$x018.5',), blockstack=(), npush=0)]
+2025-09-26 17:23:16,515 - DEBUG - pending: deque([State(pc_initial=32 nstack_initial=1), State(pc_initial=44 nstack_initial=1)])
+2025-09-26 17:23:16,515 - DEBUG - stack: ['$phi32.0']
+2025-09-26 17:23:16,515 - DEBUG - state.pc_initial: State(pc_initial=32 nstack_initial=1)
+2025-09-26 17:23:16,515 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=1, lineno=1141)
+2025-09-26 17:23:16,515 - DEBUG - stack ['$phi32.0']
+2025-09-26 17:23:16,515 - DEBUG - dispatch pc=34, inst=COMPARE_OP(arg=58, lineno=1141)
+2025-09-26 17:23:16,515 - DEBUG - stack ['$phi32.0', '$threshold32.1']
+2025-09-26 17:23:16,516 - DEBUG - dispatch pc=38, inst=POP_JUMP_IF_FALSE(arg=5, lineno=1141)
+2025-09-26 17:23:16,516 - DEBUG - stack ['$34compare_op.2']
+2025-09-26 17:23:16,516 - DEBUG - end state. edges=[Edge(pc=42, stack=(), blockstack=(), npush=0), Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,516 - DEBUG - pending: deque([State(pc_initial=44 nstack_initial=1), State(pc_initial=42 nstack_initial=0), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:23:16,516 - DEBUG - stack: ['$phi44.0']
+2025-09-26 17:23:16,516 - DEBUG - state.pc_initial: State(pc_initial=44 nstack_initial=1)
+2025-09-26 17:23:16,516 - DEBUG - dispatch pc=44, inst=POP_TOP(arg=None, lineno=1141)
+2025-09-26 17:23:16,517 - DEBUG - stack ['$phi44.0']
+2025-09-26 17:23:16,517 - DEBUG - dispatch pc=46, inst=JUMP_FORWARD(arg=2, lineno=1141)
+2025-09-26 17:23:16,517 - DEBUG - stack []
+2025-09-26 17:23:16,517 - DEBUG - end state. edges=[Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,517 - DEBUG - pending: deque([State(pc_initial=42 nstack_initial=0), State(pc_initial=52 nstack_initial=0), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:23:16,517 - DEBUG - stack: []
+2025-09-26 17:23:16,517 - DEBUG - state.pc_initial: State(pc_initial=42 nstack_initial=0)
+2025-09-26 17:23:16,517 - DEBUG - dispatch pc=42, inst=JUMP_FORWARD(arg=2, lineno=1141)
+2025-09-26 17:23:16,518 - DEBUG - stack []
+2025-09-26 17:23:16,518 - DEBUG - end state. edges=[Edge(pc=48, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,518 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=52 nstack_initial=0), State(pc_initial=48 nstack_initial=0)])
+2025-09-26 17:23:16,518 - DEBUG - stack: []
+2025-09-26 17:23:16,518 - DEBUG - state.pc_initial: State(pc_initial=52 nstack_initial=0)
+2025-09-26 17:23:16,518 - DEBUG - dispatch pc=52, inst=LOAD_FAST(arg=0, lineno=1144)
+2025-09-26 17:23:16,518 - DEBUG - stack []
+2025-09-26 17:23:16,519 - DEBUG - dispatch pc=54, inst=LOAD_CONST(arg=2, lineno=1144)
+2025-09-26 17:23:16,519 - DEBUG - stack ['$x52.0']
+2025-09-26 17:23:16,519 - DEBUG - dispatch pc=56, inst=BINARY_SUBSCR(arg=None, lineno=1144)
+2025-09-26 17:23:16,519 - DEBUG - stack ['$x52.0', '$const54.1.2']
+2025-09-26 17:23:16,519 - DEBUG - dispatch pc=60, inst=STORE_FAST(arg=4, lineno=1144)
+2025-09-26 17:23:16,519 - DEBUG - stack ['$56binary_subscr.2']
+2025-09-26 17:23:16,519 - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=1145)
+2025-09-26 17:23:16,520 - DEBUG - stack []
+2025-09-26 17:23:16,520 - DEBUG - dispatch pc=64, inst=UNARY_NEGATIVE(arg=None, lineno=1145)
+2025-09-26 17:23:16,520 - DEBUG - stack ['$threshold62.3']
+2025-09-26 17:23:16,520 - DEBUG - dispatch pc=66, inst=LOAD_FAST(arg=4, lineno=1145)
+2025-09-26 17:23:16,520 - DEBUG - stack ['$64unary_negative.4']
+2025-09-26 17:23:16,520 - DEBUG - dispatch pc=68, inst=SWAP(arg=2, lineno=1145)
+2025-09-26 17:23:16,520 - DEBUG - stack ['$64unary_negative.4', '$x166.5']
+2025-09-26 17:23:16,520 - DEBUG - dispatch pc=70, inst=COPY(arg=2, lineno=1145)
+2025-09-26 17:23:16,521 - DEBUG - stack ['$x166.5', '$64unary_negative.4']
+2025-09-26 17:23:16,521 - DEBUG - dispatch pc=72, inst=COMPARE_OP(arg=58, lineno=1145)
+2025-09-26 17:23:16,521 - DEBUG - stack ['$x166.5', '$64unary_negative.4', '$x166.5']
+2025-09-26 17:23:16,521 - DEBUG - dispatch pc=76, inst=POP_JUMP_IF_FALSE(arg=6, lineno=1145)
+2025-09-26 17:23:16,521 - DEBUG - stack ['$x166.5', '$72compare_op.6']
+2025-09-26 17:23:16,521 - DEBUG - end state. edges=[Edge(pc=80, stack=('$x166.5',), blockstack=(), npush=0), Edge(pc=92, stack=('$x166.5',), blockstack=(), npush=0)]
+2025-09-26 17:23:16,521 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=48 nstack_initial=0), State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1)])
+2025-09-26 17:23:16,521 - DEBUG - pending: deque([State(pc_initial=48 nstack_initial=0), State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1)])
+2025-09-26 17:23:16,522 - DEBUG - stack: []
+2025-09-26 17:23:16,522 - DEBUG - state.pc_initial: State(pc_initial=48 nstack_initial=0)
+2025-09-26 17:23:16,522 - DEBUG - dispatch pc=48, inst=LOAD_CONST(arg=1, lineno=1142)
+2025-09-26 17:23:16,522 - DEBUG - stack []
+2025-09-26 17:23:16,522 - DEBUG - dispatch pc=50, inst=STORE_FAST(arg=3, lineno=1142)
+2025-09-26 17:23:16,522 - DEBUG - stack ['$const48.0.1']
+2025-09-26 17:23:16,522 - DEBUG - end state. edges=[Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,522 - DEBUG - pending: deque([State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:23:16,522 - DEBUG - stack: ['$phi80.0']
+2025-09-26 17:23:16,523 - DEBUG - state.pc_initial: State(pc_initial=80 nstack_initial=1)
+2025-09-26 17:23:16,523 - DEBUG - dispatch pc=80, inst=LOAD_FAST(arg=1, lineno=1145)
+2025-09-26 17:23:16,523 - DEBUG - stack ['$phi80.0']
+2025-09-26 17:23:16,523 - DEBUG - dispatch pc=82, inst=COMPARE_OP(arg=58, lineno=1145)
+2025-09-26 17:23:16,523 - DEBUG - stack ['$phi80.0', '$threshold80.1']
+2025-09-26 17:23:16,523 - DEBUG - dispatch pc=86, inst=POP_JUMP_IF_FALSE(arg=5, lineno=1145)
+2025-09-26 17:23:16,523 - DEBUG - stack ['$82compare_op.2']
+2025-09-26 17:23:16,523 - DEBUG - end state. edges=[Edge(pc=90, stack=(), blockstack=(), npush=0), Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,523 - DEBUG - pending: deque([State(pc_initial=92 nstack_initial=1), State(pc_initial=52 nstack_initial=0), State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,524 - DEBUG - stack: ['$phi92.0']
+2025-09-26 17:23:16,524 - DEBUG - state.pc_initial: State(pc_initial=92 nstack_initial=1)
+2025-09-26 17:23:16,524 - DEBUG - dispatch pc=92, inst=POP_TOP(arg=None, lineno=1145)
+2025-09-26 17:23:16,524 - DEBUG - stack ['$phi92.0']
+2025-09-26 17:23:16,524 - DEBUG - dispatch pc=94, inst=JUMP_FORWARD(arg=2, lineno=1145)
+2025-09-26 17:23:16,524 - DEBUG - stack []
+2025-09-26 17:23:16,524 - DEBUG - end state. edges=[Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,524 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,524 - DEBUG - pending: deque([State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,525 - DEBUG - stack: []
+2025-09-26 17:23:16,525 - DEBUG - state.pc_initial: State(pc_initial=90 nstack_initial=0)
+2025-09-26 17:23:16,525 - DEBUG - dispatch pc=90, inst=JUMP_FORWARD(arg=2, lineno=1145)
+2025-09-26 17:23:16,525 - DEBUG - stack []
+2025-09-26 17:23:16,525 - DEBUG - end state. edges=[Edge(pc=96, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,525 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=96 nstack_initial=0)])
+2025-09-26 17:23:16,525 - DEBUG - stack: []
+2025-09-26 17:23:16,525 - DEBUG - state.pc_initial: State(pc_initial=100 nstack_initial=0)
+2025-09-26 17:23:16,525 - DEBUG - dispatch pc=100, inst=LOAD_FAST(arg=2, lineno=1148)
+2025-09-26 17:23:16,526 - DEBUG - stack []
+2025-09-26 17:23:16,526 - DEBUG - dispatch pc=102, inst=TO_BOOL(arg=None, lineno=1148)
+2025-09-26 17:23:16,526 - DEBUG - stack ['$zero_pos100.0']
+2025-09-26 17:23:16,526 - DEBUG - dispatch pc=110, inst=POP_JUMP_IF_FALSE(arg=45, lineno=1148)
+2025-09-26 17:23:16,526 - DEBUG - stack ['$102to_bool.1']
+2025-09-26 17:23:16,526 - DEBUG - end state. edges=[Edge(pc=114, stack=(), blockstack=(), npush=0), Edge(pc=204, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,526 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0), State(pc_initial=96 nstack_initial=0), State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0)])
+2025-09-26 17:23:16,526 - DEBUG - pending: deque([State(pc_initial=96 nstack_initial=0), State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0)])
+2025-09-26 17:23:16,527 - DEBUG - stack: []
+2025-09-26 17:23:16,527 - DEBUG - state.pc_initial: State(pc_initial=96 nstack_initial=0)
+2025-09-26 17:23:16,527 - DEBUG - dispatch pc=96, inst=LOAD_CONST(arg=1, lineno=1146)
+2025-09-26 17:23:16,527 - DEBUG - stack []
+2025-09-26 17:23:16,527 - DEBUG - dispatch pc=98, inst=STORE_FAST(arg=4, lineno=1146)
+2025-09-26 17:23:16,527 - DEBUG - stack ['$const96.0.1']
+2025-09-26 17:23:16,527 - DEBUG - end state. edges=[Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:23:16,527 - DEBUG - pending: deque([State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,528 - DEBUG - stack: []
+2025-09-26 17:23:16,528 - DEBUG - state.pc_initial: State(pc_initial=114 nstack_initial=0)
+2025-09-26 17:23:16,528 - DEBUG - dispatch pc=114, inst=LOAD_GLOBAL(arg=0, lineno=1149)
+2025-09-26 17:23:16,528 - DEBUG - stack []
+2025-09-26 17:23:16,528 - DEBUG - dispatch pc=124, inst=LOAD_ATTR(arg=2, lineno=1149)
+2025-09-26 17:23:16,528 - DEBUG - stack ['$114load_global.0']
+2025-09-26 17:23:16,528 - DEBUG - dispatch pc=144, inst=PUSH_NULL(arg=None, lineno=1149)
+2025-09-26 17:23:16,528 - DEBUG - stack ['$124load_attr.1']
+2025-09-26 17:23:16,529 - DEBUG - dispatch pc=146, inst=LOAD_FAST(arg=3, lineno=1149)
+2025-09-26 17:23:16,529 - DEBUG - stack ['$124load_attr.1', '$null$144.2']
+2025-09-26 17:23:16,529 - DEBUG - dispatch pc=148, inst=CALL(arg=1, lineno=1149)
+2025-09-26 17:23:16,529 - DEBUG - stack ['$124load_attr.1', '$null$144.2', '$x0146.3']
+2025-09-26 17:23:16,529 - DEBUG - dispatch pc=156, inst=LOAD_GLOBAL(arg=0, lineno=1149)
+2025-09-26 17:23:16,529 - DEBUG - stack ['$148call.4']
+2025-09-26 17:23:16,529 - DEBUG - dispatch pc=166, inst=LOAD_ATTR(arg=2, lineno=1149)
+2025-09-26 17:23:16,530 - DEBUG - stack ['$148call.4', '$156load_global.5']
+2025-09-26 17:23:16,530 - DEBUG - dispatch pc=186, inst=PUSH_NULL(arg=None, lineno=1149)
+2025-09-26 17:23:16,530 - DEBUG - stack ['$148call.4', '$166load_attr.6']
+2025-09-26 17:23:16,530 - DEBUG - dispatch pc=188, inst=LOAD_FAST(arg=4, lineno=1149)
+2025-09-26 17:23:16,530 - DEBUG - stack ['$148call.4', '$166load_attr.6', '$null$186.7']
+2025-09-26 17:23:16,530 - DEBUG - dispatch pc=190, inst=CALL(arg=1, lineno=1149)
+2025-09-26 17:23:16,530 - DEBUG - stack ['$148call.4', '$166load_attr.6', '$null$186.7', '$x1188.8']
+2025-09-26 17:23:16,531 - DEBUG - dispatch pc=198, inst=COMPARE_OP(arg=103, lineno=1149)
+2025-09-26 17:23:16,531 - DEBUG - stack ['$148call.4', '$190call.9']
+2025-09-26 17:23:16,531 - DEBUG - dispatch pc=202, inst=RETURN_VALUE(arg=None, lineno=1149)
+2025-09-26 17:23:16,531 - DEBUG - stack ['$198compare_op.10']
+2025-09-26 17:23:16,531 - DEBUG - end state. edges=[]
+2025-09-26 17:23:16,531 - DEBUG - pending: deque([State(pc_initial=204 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,532 - DEBUG - stack: []
+2025-09-26 17:23:16,532 - DEBUG - state.pc_initial: State(pc_initial=204 nstack_initial=0)
+2025-09-26 17:23:16,532 - DEBUG - dispatch pc=204, inst=LOAD_GLOBAL(arg=0, lineno=1151)
+2025-09-26 17:23:16,532 - DEBUG - stack []
+2025-09-26 17:23:16,532 - DEBUG - dispatch pc=214, inst=LOAD_ATTR(arg=4, lineno=1151)
+2025-09-26 17:23:16,532 - DEBUG - stack ['$204load_global.0']
+2025-09-26 17:23:16,532 - DEBUG - dispatch pc=234, inst=PUSH_NULL(arg=None, lineno=1151)
+2025-09-26 17:23:16,532 - DEBUG - stack ['$214load_attr.1']
+2025-09-26 17:23:16,532 - DEBUG - dispatch pc=236, inst=LOAD_FAST(arg=3, lineno=1151)
+2025-09-26 17:23:16,533 - DEBUG - stack ['$214load_attr.1', '$null$234.2']
+2025-09-26 17:23:16,533 - DEBUG - dispatch pc=238, inst=CALL(arg=1, lineno=1151)
+2025-09-26 17:23:16,533 - DEBUG - stack ['$214load_attr.1', '$null$234.2', '$x0236.3']
+2025-09-26 17:23:16,533 - DEBUG - dispatch pc=246, inst=LOAD_GLOBAL(arg=0, lineno=1151)
+2025-09-26 17:23:16,533 - DEBUG - stack ['$238call.4']
+2025-09-26 17:23:16,533 - DEBUG - dispatch pc=256, inst=LOAD_ATTR(arg=4, lineno=1151)
+2025-09-26 17:23:16,533 - DEBUG - stack ['$238call.4', '$246load_global.5']
+2025-09-26 17:23:16,533 - DEBUG - dispatch pc=276, inst=PUSH_NULL(arg=None, lineno=1151)
+2025-09-26 17:23:16,534 - DEBUG - stack ['$238call.4', '$256load_attr.6']
+2025-09-26 17:23:16,534 - DEBUG - dispatch pc=278, inst=LOAD_FAST(arg=4, lineno=1151)
+2025-09-26 17:23:16,534 - DEBUG - stack ['$238call.4', '$256load_attr.6', '$null$276.7']
+2025-09-26 17:23:16,534 - DEBUG - dispatch pc=280, inst=CALL(arg=1, lineno=1151)
+2025-09-26 17:23:16,534 - DEBUG - stack ['$238call.4', '$256load_attr.6', '$null$276.7', '$x1278.8']
+2025-09-26 17:23:16,534 - DEBUG - dispatch pc=288, inst=COMPARE_OP(arg=103, lineno=1151)
+2025-09-26 17:23:16,534 - DEBUG - stack ['$238call.4', '$280call.9']
+2025-09-26 17:23:16,534 - DEBUG - dispatch pc=292, inst=RETURN_VALUE(arg=None, lineno=1151)
+2025-09-26 17:23:16,534 - DEBUG - stack ['$288compare_op.10']
+2025-09-26 17:23:16,535 - DEBUG - end state. edges=[]
+2025-09-26 17:23:16,535 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:23:16,535 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:23:16,535 - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=32 nstack_initial=1): {'$phi32.0'},
+             State(pc_initial=42 nstack_initial=0): set(),
+             State(pc_initial=44 nstack_initial=1): set(),
+             State(pc_initial=48 nstack_initial=0): set(),
+             State(pc_initial=52 nstack_initial=0): set(),
+             State(pc_initial=80 nstack_initial=1): {'$phi80.0'},
+             State(pc_initial=90 nstack_initial=0): set(),
+             State(pc_initial=92 nstack_initial=1): set(),
+             State(pc_initial=96 nstack_initial=0): set(),
+             State(pc_initial=100 nstack_initial=0): set(),
+             State(pc_initial=114 nstack_initial=0): set(),
+             State(pc_initial=204 nstack_initial=0): set()})
+2025-09-26 17:23:16,536 - DEBUG - defmap: {'$phi32.0': State(pc_initial=0 nstack_initial=0),
+ '$phi44.0': State(pc_initial=0 nstack_initial=0),
+ '$phi80.0': State(pc_initial=52 nstack_initial=0),
+ '$phi92.0': State(pc_initial=52 nstack_initial=0)}
+2025-09-26 17:23:16,536 - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi44.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))},
+             '$phi92.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}})
+2025-09-26 17:23:16,536 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi44.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))},
+             '$phi92.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}})
+2025-09-26 17:23:16,536 - DEBUG - keep phismap: {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+ '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}}
+2025-09-26 17:23:16,536 - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=0 nstack_initial=0): {'$phi32.0': '$x018.5'},
+             State(pc_initial=52 nstack_initial=0): {'$phi80.0': '$x166.5'}})
+2025-09-26 17:23:16,537 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:23:16,537 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'value': '$8binary_subscr.2'}), (14, {'res': '$threshold14.3'}), (16, {'value': '$threshold14.3', 'res': '$16unary_negative.4'}), (18, {'res': '$x018.5'}), (24, {'lhs': '$16unary_negative.4', 'rhs': '$x018.5', 'res': '$24compare_op.6'}), (28, {'pred': '$24compare_op.6'})), outgoing_phis={'$phi32.0': '$x018.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={32: ('$x018.5',), 44: ('$x018.5',)})
+2025-09-26 17:23:16,537 - DEBUG - block_infos State(pc_initial=32 nstack_initial=1):
+AdaptBlockInfo(insts=((32, {'res': '$threshold32.1'}), (34, {'lhs': '$phi32.0', 'rhs': '$threshold32.1', 'res': '$34compare_op.2'}), (38, {'pred': '$34compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={42: (), 52: ()})
+2025-09-26 17:23:16,537 - DEBUG - block_infos State(pc_initial=42 nstack_initial=0):
+AdaptBlockInfo(insts=((42, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={48: ()})
+2025-09-26 17:23:16,537 - DEBUG - block_infos State(pc_initial=44 nstack_initial=1):
+AdaptBlockInfo(insts=((46, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={52: ()})
+2025-09-26 17:23:16,538 - DEBUG - block_infos State(pc_initial=48 nstack_initial=0):
+AdaptBlockInfo(insts=((48, {'res': '$const48.0.1'}), (50, {'value': '$const48.0.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={52: ()})
+2025-09-26 17:23:16,538 - DEBUG - block_infos State(pc_initial=52 nstack_initial=0):
+AdaptBlockInfo(insts=((52, {'res': '$x52.0'}), (54, {'res': '$const54.1.2'}), (56, {'index': '$const54.1.2', 'target': '$x52.0', 'res': '$56binary_subscr.2'}), (60, {'value': '$56binary_subscr.2'}), (62, {'res': '$threshold62.3'}), (64, {'value': '$threshold62.3', 'res': '$64unary_negative.4'}), (66, {'res': '$x166.5'}), (72, {'lhs': '$64unary_negative.4', 'rhs': '$x166.5', 'res': '$72compare_op.6'}), (76, {'pred': '$72compare_op.6'})), outgoing_phis={'$phi80.0': '$x166.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={80: ('$x166.5',), 92: ('$x166.5',)})
+2025-09-26 17:23:16,538 - DEBUG - block_infos State(pc_initial=80 nstack_initial=1):
+AdaptBlockInfo(insts=((80, {'res': '$threshold80.1'}), (82, {'lhs': '$phi80.0', 'rhs': '$threshold80.1', 'res': '$82compare_op.2'}), (86, {'pred': '$82compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={90: (), 100: ()})
+2025-09-26 17:23:16,538 - DEBUG - block_infos State(pc_initial=90 nstack_initial=0):
+AdaptBlockInfo(insts=((90, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={96: ()})
+2025-09-26 17:23:16,538 - DEBUG - block_infos State(pc_initial=92 nstack_initial=1):
+AdaptBlockInfo(insts=((94, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={100: ()})
+2025-09-26 17:23:16,539 - DEBUG - block_infos State(pc_initial=96 nstack_initial=0):
+AdaptBlockInfo(insts=((96, {'res': '$const96.0.1'}), (98, {'value': '$const96.0.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={100: ()})
+2025-09-26 17:23:16,539 - DEBUG - block_infos State(pc_initial=100 nstack_initial=0):
+AdaptBlockInfo(insts=((100, {'res': '$zero_pos100.0'}), (102, {'val': '$zero_pos100.0', 'res': '$102to_bool.1'}), (110, {'pred': '$102to_bool.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={114: (), 204: ()})
+2025-09-26 17:23:16,539 - DEBUG - block_infos State(pc_initial=114 nstack_initial=0):
+AdaptBlockInfo(insts=((114, {'idx': 0, 'res': '$114load_global.0'}), (124, {'item': '$114load_global.0', 'res': '$124load_attr.1'}), (144, {}), (146, {'res': '$x0146.3'}), (148, {'func': '$124load_attr.1', 'args': ['$x0146.3'], 'kw_names': None, 'res': '$148call.4'}), (156, {'idx': 0, 'res': '$156load_global.5'}), (166, {'item': '$156load_global.5', 'res': '$166load_attr.6'}), (186, {}), (188, {'res': '$x1188.8'}), (190, {'func': '$166load_attr.6', 'args': ['$x1188.8'], 'kw_names': None, 'res': '$190call.9'}), (198, {'lhs': '$148call.4', 'rhs': '$190call.9', 'res': '$198compare_op.10'}), (202, {'retval': '$198compare_op.10', 'castval': '$202return_value.11'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:23:16,539 - DEBUG - block_infos State(pc_initial=204 nstack_initial=0):
+AdaptBlockInfo(insts=((204, {'idx': 0, 'res': '$204load_global.0'}), (214, {'item': '$204load_global.0', 'res': '$214load_attr.1'}), (234, {}), (236, {'res': '$x0236.3'}), (238, {'func': '$214load_attr.1', 'args': ['$x0236.3'], 'kw_names': None, 'res': '$238call.4'}), (246, {'idx': 0, 'res': '$246load_global.5'}), (256, {'item': '$246load_global.5', 'res': '$256load_attr.6'}), (276, {}), (278, {'res': '$x1278.8'}), (280, {'func': '$256load_attr.6', 'args': ['$x1278.8'], 'kw_names': None, 'res': '$280call.9'}), (288, {'lhs': '$238call.4', 'rhs': '$280call.9', 'res': '$288compare_op.10'}), (292, {'retval': '$288compare_op.10', 'castval': '$292return_value.11'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:23:16,540 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    threshold = arg(1, name=threshold)       ['threshold']
+    zero_pos = arg(2, name=zero_pos)         ['zero_pos']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    x0 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$const6.1.1', 'x', 'x0']
+    $16unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$16unary_negative.4', 'threshold']
+    $24compare_op.6 = $16unary_negative.4 <= x0 ['$16unary_negative.4', '$24compare_op.6', 'x0']
+    $bool28 = global(bool: <class 'bool'>)   ['$bool28']
+    $28pred = call $bool28($24compare_op.6, func=$bool28, args=(Var($24compare_op.6, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$24compare_op.6', '$28pred', '$bool28']
+    $phi32.0 = x0                            ['$phi32.0', 'x0']
+    branch $28pred, 32, 44                   ['$28pred']
+label 32:
+    $34compare_op.2 = $phi32.0 <= threshold  ['$34compare_op.2', '$phi32.0', 'threshold']
+    $bool38 = global(bool: <class 'bool'>)   ['$bool38']
+    $38pred = call $bool38($34compare_op.2, func=$bool38, args=(Var($34compare_op.2, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$34compare_op.2', '$38pred', '$bool38']
+    branch $38pred, 42, 52                   ['$38pred']
+label 42:
+    jump 48                                  []
+label 44:
+    jump 52                                  []
+label 48:
+    x0 = const(int, 0)                       ['x0']
+    jump 52                                  []
+label 52:
+    $const54.1.2 = const(int, -1)            ['$const54.1.2']
+    x1 = getitem(value=x, index=$const54.1.2, fn=<built-in function getitem>) ['$const54.1.2', 'x', 'x1']
+    $64unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$64unary_negative.4', 'threshold']
+    $72compare_op.6 = $64unary_negative.4 <= x1 ['$64unary_negative.4', '$72compare_op.6', 'x1']
+    $bool76 = global(bool: <class 'bool'>)   ['$bool76']
+    $76pred = call $bool76($72compare_op.6, func=$bool76, args=(Var($72compare_op.6, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$72compare_op.6', '$76pred', '$bool76']
+    $phi80.0 = x1                            ['$phi80.0', 'x1']
+    branch $76pred, 80, 92                   ['$76pred']
+label 80:
+    $82compare_op.2 = $phi80.0 <= threshold  ['$82compare_op.2', '$phi80.0', 'threshold']
+    $bool86 = global(bool: <class 'bool'>)   ['$bool86']
+    $86pred = call $bool86($82compare_op.2, func=$bool86, args=(Var($82compare_op.2, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$82compare_op.2', '$86pred', '$bool86']
+    branch $86pred, 90, 100                  ['$86pred']
+label 90:
+    jump 96                                  []
+label 92:
+    jump 100                                 []
+label 96:
+    x1 = const(int, 0)                       ['x1']
+    jump 100                                 []
+label 100:
+    $bool110 = global(bool: <class 'bool'>)  ['$bool110']
+    $110pred = call $bool110(zero_pos, func=$bool110, args=(Var(zero_pos, audio.py:1137),), kws=(), vararg=None, varkwarg=None, target=None) ['$110pred', '$bool110', 'zero_pos']
+    branch $110pred, 114, 204                ['$110pred']
+label 114:
+    $114load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$114load_global.0']
+    $124load_attr.1 = getattr(value=$114load_global.0, attr=signbit) ['$114load_global.0', '$124load_attr.1']
+    $148call.4 = call $124load_attr.1(x0, func=$124load_attr.1, args=[Var(x0, audio.py:1140)], kws=(), vararg=None, varkwarg=None, target=None) ['$124load_attr.1', '$148call.4', 'x0']
+    $156load_global.5 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$156load_global.5']
+    $166load_attr.6 = getattr(value=$156load_global.5, attr=signbit) ['$156load_global.5', '$166load_attr.6']
+    $190call.9 = call $166load_attr.6(x1, func=$166load_attr.6, args=[Var(x1, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$166load_attr.6', '$190call.9', 'x1']
+    $198compare_op.10 = $148call.4 != $190call.9 ['$148call.4', '$190call.9', '$198compare_op.10']
+    $202return_value.11 = cast(value=$198compare_op.10) ['$198compare_op.10', '$202return_value.11']
+    return $202return_value.11               ['$202return_value.11']
+label 204:
+    $204load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$204load_global.0']
+    $214load_attr.1 = getattr(value=$204load_global.0, attr=sign) ['$204load_global.0', '$214load_attr.1']
+    $238call.4 = call $214load_attr.1(x0, func=$214load_attr.1, args=[Var(x0, audio.py:1140)], kws=(), vararg=None, varkwarg=None, target=None) ['$214load_attr.1', '$238call.4', 'x0']
+    $246load_global.5 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$246load_global.5']
+    $256load_attr.6 = getattr(value=$246load_global.5, attr=sign) ['$246load_global.5', '$256load_attr.6']
+    $280call.9 = call $256load_attr.6(x1, func=$256load_attr.6, args=[Var(x1, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$256load_attr.6', '$280call.9', 'x1']
+    $288compare_op.10 = $238call.4 != $280call.9 ['$238call.4', '$280call.9', '$288compare_op.10']
+    $292return_value.11 = cast(value=$288compare_op.10) ['$288compare_op.10', '$292return_value.11']
+    return $292return_value.11               ['$292return_value.11']
+
+2025-09-26 17:23:16,877 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1023)
+           2	RESUME(arg=0, lineno=1023)
+           4	LOAD_FAST(arg=0, lineno=1026)
+           6	LOAD_CONST(arg=1, lineno=1026)
+           8	BINARY_SUBSCR(arg=None, lineno=1026)
+          12	LOAD_FAST(arg=0, lineno=1026)
+          14	LOAD_CONST(arg=2, lineno=1026)
+          16	BINARY_SUBSCR(arg=None, lineno=1026)
+          20	COMPARE_OP(arg=132, lineno=1026)
+          24	LOAD_FAST(arg=0, lineno=1026)
+          26	LOAD_CONST(arg=1, lineno=1026)
+          28	BINARY_SUBSCR(arg=None, lineno=1026)
+          32	LOAD_FAST(arg=0, lineno=1026)
+          34	LOAD_CONST(arg=3, lineno=1026)
+          36	BINARY_SUBSCR(arg=None, lineno=1026)
+          40	COMPARE_OP(arg=172, lineno=1026)
+          44	BINARY_OP(arg=1, lineno=1026)
+          48	RETURN_VALUE(arg=None, lineno=1026)
+2025-09-26 17:23:16,877 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:23:16,877 - DEBUG - stack: []
+2025-09-26 17:23:16,878 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:23:16,878 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1023)
+2025-09-26 17:23:16,878 - DEBUG - stack []
+2025-09-26 17:23:16,878 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1023)
+2025-09-26 17:23:16,878 - DEBUG - stack []
+2025-09-26 17:23:16,879 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:23:16,879 - DEBUG - stack []
+2025-09-26 17:23:16,879 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1026)
+2025-09-26 17:23:16,879 - DEBUG - stack ['$x4.0']
+2025-09-26 17:23:16,879 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:23:16,879 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:23:16,880 - DEBUG - dispatch pc=12, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:23:16,880 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:23:16,880 - DEBUG - dispatch pc=14, inst=LOAD_CONST(arg=2, lineno=1026)
+2025-09-26 17:23:16,880 - DEBUG - stack ['$8binary_subscr.2', '$x12.3']
+2025-09-26 17:23:16,880 - DEBUG - dispatch pc=16, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:23:16,880 - DEBUG - stack ['$8binary_subscr.2', '$x12.3', '$const14.4.2']
+2025-09-26 17:23:16,880 - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=132, lineno=1026)
+2025-09-26 17:23:16,880 - DEBUG - stack ['$8binary_subscr.2', '$16binary_subscr.5']
+2025-09-26 17:23:16,880 - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:23:16,881 - DEBUG - stack ['$20compare_op.6']
+2025-09-26 17:23:16,881 - DEBUG - dispatch pc=26, inst=LOAD_CONST(arg=1, lineno=1026)
+2025-09-26 17:23:16,881 - DEBUG - stack ['$20compare_op.6', '$x24.7']
+2025-09-26 17:23:16,881 - DEBUG - dispatch pc=28, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:23:16,881 - DEBUG - stack ['$20compare_op.6', '$x24.7', '$const26.8.1']
+2025-09-26 17:23:16,881 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:23:16,881 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9']
+2025-09-26 17:23:16,881 - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=3, lineno=1026)
+2025-09-26 17:23:16,881 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10']
+2025-09-26 17:23:16,881 - DEBUG - dispatch pc=36, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:23:16,882 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10', '$const34.11.3']
+2025-09-26 17:23:16,882 - DEBUG - dispatch pc=40, inst=COMPARE_OP(arg=172, lineno=1026)
+2025-09-26 17:23:16,882 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$36binary_subscr.12']
+2025-09-26 17:23:16,882 - DEBUG - dispatch pc=44, inst=BINARY_OP(arg=1, lineno=1026)
+2025-09-26 17:23:16,882 - DEBUG - stack ['$20compare_op.6', '$40compare_op.13']
+2025-09-26 17:23:16,882 - DEBUG - dispatch pc=48, inst=RETURN_VALUE(arg=None, lineno=1026)
+2025-09-26 17:23:16,882 - DEBUG - stack ['$binop_and_44.14']
+2025-09-26 17:23:16,882 - DEBUG - end state. edges=[]
+2025-09-26 17:23:16,882 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:23:16,883 - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2025-09-26 17:23:16,883 - DEBUG - defmap: {}
+2025-09-26 17:23:16,883 - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:23:16,883 - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:23:16,883 - DEBUG - keep phismap: {}
+2025-09-26 17:23:16,883 - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2025-09-26 17:23:16,883 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:23:16,883 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'res': '$x12.3'}), (14, {'res': '$const14.4.2'}), (16, {'index': '$const14.4.2', 'target': '$x12.3', 'res': '$16binary_subscr.5'}), (20, {'lhs': '$8binary_subscr.2', 'rhs': '$16binary_subscr.5', 'res': '$20compare_op.6'}), (24, {'res': '$x24.7'}), (26, {'res': '$const26.8.1'}), (28, {'index': '$const26.8.1', 'target': '$x24.7', 'res': '$28binary_subscr.9'}), (32, {'res': '$x32.10'}), (34, {'res': '$const34.11.3'}), (36, {'index': '$const34.11.3', 'target': '$x32.10', 'res': '$36binary_subscr.12'}), (40, {'lhs': '$28binary_subscr.9', 'rhs': '$36binary_subscr.12', 'res': '$40compare_op.13'}), (44, {'op': '&', 'lhs': '$20compare_op.6', 'rhs': '$40compare_op.13', 'res': '$binop_and_44.14'}), (48, {'retval': '$binop_and_44.14', 'castval': '$48return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:23:16,884 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    $8binary_subscr.2 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$8binary_subscr.2', '$const6.1.1', 'x']
+    $const14.4.2 = const(int, -1)            ['$const14.4.2']
+    $16binary_subscr.5 = getitem(value=x, index=$const14.4.2, fn=<built-in function getitem>) ['$16binary_subscr.5', '$const14.4.2', 'x']
+    $20compare_op.6 = $8binary_subscr.2 > $16binary_subscr.5 ['$16binary_subscr.5', '$20compare_op.6', '$8binary_subscr.2']
+    $const26.8.1 = const(int, 0)             ['$const26.8.1']
+    $28binary_subscr.9 = getitem(value=x, index=$const26.8.1, fn=<built-in function getitem>) ['$28binary_subscr.9', '$const26.8.1', 'x']
+    $const34.11.3 = const(int, 1)            ['$const34.11.3']
+    $36binary_subscr.12 = getitem(value=x, index=$const34.11.3, fn=<built-in function getitem>) ['$36binary_subscr.12', '$const34.11.3', 'x']
+    $40compare_op.13 = $28binary_subscr.9 >= $36binary_subscr.12 ['$28binary_subscr.9', '$36binary_subscr.12', '$40compare_op.13']
+    $binop_and_44.14 = $20compare_op.6 & $40compare_op.13 ['$20compare_op.6', '$40compare_op.13', '$binop_and_44.14']
+    $48return_value.15 = cast(value=$binop_and_44.14) ['$48return_value.15', '$binop_and_44.14']
+    return $48return_value.15                ['$48return_value.15']
+
+2025-09-26 17:23:16,885 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1029)
+           2	RESUME(arg=0, lineno=1029)
+           4	LOAD_FAST(arg=0, lineno=1032)
+           6	LOAD_CONST(arg=1, lineno=1032)
+           8	BINARY_SUBSCR(arg=None, lineno=1032)
+          12	LOAD_FAST(arg=0, lineno=1032)
+          14	LOAD_CONST(arg=2, lineno=1032)
+          16	BINARY_SUBSCR(arg=None, lineno=1032)
+          20	COMPARE_OP(arg=2, lineno=1032)
+          24	LOAD_FAST(arg=0, lineno=1032)
+          26	LOAD_CONST(arg=1, lineno=1032)
+          28	BINARY_SUBSCR(arg=None, lineno=1032)
+          32	LOAD_FAST(arg=0, lineno=1032)
+          34	LOAD_CONST(arg=3, lineno=1032)
+          36	BINARY_SUBSCR(arg=None, lineno=1032)
+          40	COMPARE_OP(arg=42, lineno=1032)
+          44	BINARY_OP(arg=1, lineno=1032)
+          48	RETURN_VALUE(arg=None, lineno=1032)
+2025-09-26 17:23:16,885 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:23:16,885 - DEBUG - stack: []
+2025-09-26 17:23:16,886 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:23:16,886 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1029)
+2025-09-26 17:23:16,886 - DEBUG - stack []
+2025-09-26 17:23:16,886 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1029)
+2025-09-26 17:23:16,886 - DEBUG - stack []
+2025-09-26 17:23:16,886 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:23:16,886 - DEBUG - stack []
+2025-09-26 17:23:16,886 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1032)
+2025-09-26 17:23:16,886 - DEBUG - stack ['$x4.0']
+2025-09-26 17:23:16,886 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:23:16,887 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:23:16,887 - DEBUG - dispatch pc=12, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:23:16,887 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:23:16,887 - DEBUG - dispatch pc=14, inst=LOAD_CONST(arg=2, lineno=1032)
+2025-09-26 17:23:16,887 - DEBUG - stack ['$8binary_subscr.2', '$x12.3']
+2025-09-26 17:23:16,887 - DEBUG - dispatch pc=16, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:23:16,887 - DEBUG - stack ['$8binary_subscr.2', '$x12.3', '$const14.4.2']
+2025-09-26 17:23:16,887 - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=2, lineno=1032)
+2025-09-26 17:23:16,887 - DEBUG - stack ['$8binary_subscr.2', '$16binary_subscr.5']
+2025-09-26 17:23:16,888 - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:23:16,888 - DEBUG - stack ['$20compare_op.6']
+2025-09-26 17:23:16,888 - DEBUG - dispatch pc=26, inst=LOAD_CONST(arg=1, lineno=1032)
+2025-09-26 17:23:16,888 - DEBUG - stack ['$20compare_op.6', '$x24.7']
+2025-09-26 17:23:16,888 - DEBUG - dispatch pc=28, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:23:16,888 - DEBUG - stack ['$20compare_op.6', '$x24.7', '$const26.8.1']
+2025-09-26 17:23:16,888 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:23:16,888 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9']
+2025-09-26 17:23:16,888 - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=3, lineno=1032)
+2025-09-26 17:23:16,889 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10']
+2025-09-26 17:23:16,889 - DEBUG - dispatch pc=36, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:23:16,889 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10', '$const34.11.3']
+2025-09-26 17:23:16,889 - DEBUG - dispatch pc=40, inst=COMPARE_OP(arg=42, lineno=1032)
+2025-09-26 17:23:16,889 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$36binary_subscr.12']
+2025-09-26 17:23:16,889 - DEBUG - dispatch pc=44, inst=BINARY_OP(arg=1, lineno=1032)
+2025-09-26 17:23:16,889 - DEBUG - stack ['$20compare_op.6', '$40compare_op.13']
+2025-09-26 17:23:16,890 - DEBUG - dispatch pc=48, inst=RETURN_VALUE(arg=None, lineno=1032)
+2025-09-26 17:23:16,890 - DEBUG - stack ['$binop_and_44.14']
+2025-09-26 17:23:16,890 - DEBUG - end state. edges=[]
+2025-09-26 17:23:16,890 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:23:16,890 - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2025-09-26 17:23:16,890 - DEBUG - defmap: {}
+2025-09-26 17:23:16,891 - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:23:16,891 - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:23:16,891 - DEBUG - keep phismap: {}
+2025-09-26 17:23:16,891 - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2025-09-26 17:23:16,891 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:23:16,891 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'res': '$x12.3'}), (14, {'res': '$const14.4.2'}), (16, {'index': '$const14.4.2', 'target': '$x12.3', 'res': '$16binary_subscr.5'}), (20, {'lhs': '$8binary_subscr.2', 'rhs': '$16binary_subscr.5', 'res': '$20compare_op.6'}), (24, {'res': '$x24.7'}), (26, {'res': '$const26.8.1'}), (28, {'index': '$const26.8.1', 'target': '$x24.7', 'res': '$28binary_subscr.9'}), (32, {'res': '$x32.10'}), (34, {'res': '$const34.11.3'}), (36, {'index': '$const34.11.3', 'target': '$x32.10', 'res': '$36binary_subscr.12'}), (40, {'lhs': '$28binary_subscr.9', 'rhs': '$36binary_subscr.12', 'res': '$40compare_op.13'}), (44, {'op': '&', 'lhs': '$20compare_op.6', 'rhs': '$40compare_op.13', 'res': '$binop_and_44.14'}), (48, {'retval': '$binop_and_44.14', 'castval': '$48return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:23:16,892 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    $8binary_subscr.2 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$8binary_subscr.2', '$const6.1.1', 'x']
+    $const14.4.2 = const(int, -1)            ['$const14.4.2']
+    $16binary_subscr.5 = getitem(value=x, index=$const14.4.2, fn=<built-in function getitem>) ['$16binary_subscr.5', '$const14.4.2', 'x']
+    $20compare_op.6 = $8binary_subscr.2 < $16binary_subscr.5 ['$16binary_subscr.5', '$20compare_op.6', '$8binary_subscr.2']
+    $const26.8.1 = const(int, 0)             ['$const26.8.1']
+    $28binary_subscr.9 = getitem(value=x, index=$const26.8.1, fn=<built-in function getitem>) ['$28binary_subscr.9', '$const26.8.1', 'x']
+    $const34.11.3 = const(int, 1)            ['$const34.11.3']
+    $36binary_subscr.12 = getitem(value=x, index=$const34.11.3, fn=<built-in function getitem>) ['$36binary_subscr.12', '$const34.11.3', 'x']
+    $40compare_op.13 = $28binary_subscr.9 <= $36binary_subscr.12 ['$28binary_subscr.9', '$36binary_subscr.12', '$40compare_op.13']
+    $binop_and_44.14 = $20compare_op.6 & $40compare_op.13 ['$20compare_op.6', '$40compare_op.13', '$binop_and_44.14']
+    $48return_value.15 = cast(value=$binop_and_44.14) ['$48return_value.15', '$binop_and_44.14']
+    return $48return_value.15                ['$48return_value.15']
+
+2025-09-26 17:23:17,236 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:17,236 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\children-voice.mp3
+2025-09-26 17:23:17,236 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:18,760 - DEBUG - Loading FFmpeg6
+2025-09-26 17:23:18,762 - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:23:18,764 - DEBUG - Loading FFmpeg5
+2025-09-26 17:23:18,766 - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:23:18,767 - DEBUG - Loading FFmpeg4
+2025-09-26 17:23:18,768 - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:23:18,769 - DEBUG - Loading FFmpeg
+2025-09-26 17:23:18,770 - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2025-09-26 17:23:18,851 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:18,852 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\children-voice.mp3
+2025-09-26 17:23:19,499 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:19,499 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\children-voice.mp3
+2025-09-26 17:23:19,555 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\children-voice_vocals.wav
+2025-09-26 17:23:19,564 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:19,564 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:20,120 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\children-voice_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-9c1610eb-cbff-4b3c-90fa-a883c0f064a3', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:20,217 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:20,217 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-09-26 17:23:20,283 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F4D13A42F0>
+2025-09-26 17:23:20,284 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001F4D0D1DD00> server_hostname='api.openai.com' timeout=5.0
+2025-09-26 17:23:20,535 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001F4D1276850>
+2025-09-26 17:23:20,536 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:20,536 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:20,536 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:20,538 - DEBUG - send_request_body.complete
+2025-09-26 17:23:20,538 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:21,768 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:21 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'668'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'710'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_599a142833c4413d8b248c22f7ca4cdf'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=mrbSvpHvvxgPjlNvNUpVNfxRIvq8D5rtgT89ZzUQ_zs-1758896601-1.0.1.1-wF.s.TwS1bCYDBdmlsPmhgWKfj_Kqe9JUweeDXBx7btxR60GHaCws0IotZl8BRFCUJKQnxnAw8MCUNixDzz7V1u6EvGvURLGlZyJMCY1gPg; path=/; expires=Fri, 26-Sep-25 14:53:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=tgvRJyzLUuaWS4xL5yhnOErG.uV1Ci_1YyMaDCvxi2Y-1758896601740-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b298aa3c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:21,769 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:21,769 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:21,769 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:21,770 - DEBUG - response_closed.started
+2025-09-26 17:23:21,770 - DEBUG - response_closed.complete
+2025-09-26 17:23:21,770 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers([('date', 'Fri, 26 Sep 2025 14:23:21 GMT'), ('content-type', 'text/plain; charset=utf-8'), ('content-length', '1'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'yurisun'), ('openai-processing-ms', '668'), ('openai-project', 'proj_Llb21yVk5b2whxj0ZTkY3iYI'), ('openai-version', '2020-10-01'), ('x-envoy-upstream-service-time', '710'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-reset-requests', '120ms'), ('x-request-id', 'req_599a142833c4413d8b248c22f7ca4cdf'), ('x-openai-proxy-wasm', 'v0.1'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=mrbSvpHvvxgPjlNvNUpVNfxRIvq8D5rtgT89ZzUQ_zs-1758896601-1.0.1.1-wF.s.TwS1bCYDBdmlsPmhgWKfj_Kqe9JUweeDXBx7btxR60GHaCws0IotZl8BRFCUJKQnxnAw8MCUNixDzz7V1u6EvGvURLGlZyJMCY1gPg; path=/; expires=Fri, 26-Sep-25 14:53:21 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=tgvRJyzLUuaWS4xL5yhnOErG.uV1Ci_1YyMaDCvxi2Y-1758896601740-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '98536b298aa3c7da-TLL'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-09-26 17:23:21,770 - DEBUG - request_id: req_599a142833c4413d8b248c22f7ca4cdf
+2025-09-26 17:23:21,771 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:21,771 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:21,771 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:21,771 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: '' (длина: 0)
+2025-09-26 17:23:21,771 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 2 - авто-язык
+2025-09-26 17:23:21,772 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\children-voice_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-da0e14d1-54bc-412e-acab-61ba47570164', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:21,773 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:21,773 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:21,773 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:21,774 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:21,775 - DEBUG - send_request_body.complete
+2025-09-26 17:23:21,775 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:22,641 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:22 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'493'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'503'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_7d5f5aabf1c54c0ea4fddd8c9a8a6cb9'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b314ac7c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:22,642 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:22,642 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:22,642 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:22,643 - DEBUG - response_closed.started
+2025-09-26 17:23:22,643 - DEBUG - response_closed.complete
+2025-09-26 17:23:22,643 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:22 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '1', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '493', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '503', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_7d5f5aabf1c54c0ea4fddd8c9a8a6cb9', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b314ac7c7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:22,643 - DEBUG - request_id: req_7d5f5aabf1c54c0ea4fddd8c9a8a6cb9
+2025-09-26 17:23:22,644 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:22,644 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:22,644 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:22,645 - DEBUG - ТРАНСКРИПЦИЯ: Результат 2: '' (длина: 0)
+2025-09-26 17:23:22,867 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:23:22,867 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:22,867 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:22,867 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:22,874 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\engine-on-the-spot.mp3
+2025-09-26 17:23:22,904 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:22,904 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\engine-on-the-spot.mp3
+2025-09-26 17:23:22,904 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:22,904 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:22,904 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\engine-on-the-spot.mp3
+2025-09-26 17:23:23,437 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:23,437 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\engine-on-the-spot.mp3
+2025-09-26 17:23:23,691 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\engine-on-the-spot_vocals.wav
+2025-09-26 17:23:23,701 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:23,701 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:23,712 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\engine-on-the-spot_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-3fbf7662-4d9c-48e9-ae20-0c7d56053a45', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:23,713 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:23,714 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:23,714 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:23,714 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:23,720 - DEBUG - send_request_body.complete
+2025-09-26 17:23:23,720 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:26,342 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:26 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'687'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'709'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_3c03a03e03164d85ab1ef94148033cdc'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b3d6f98c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:26,342 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:26,343 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:26,343 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:26,343 - DEBUG - response_closed.started
+2025-09-26 17:23:26,343 - DEBUG - response_closed.complete
+2025-09-26 17:23:26,343 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:26 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '1', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '687', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '709', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_3c03a03e03164d85ab1ef94148033cdc', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b3d6f98c7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:26,344 - DEBUG - request_id: req_3c03a03e03164d85ab1ef94148033cdc
+2025-09-26 17:23:26,344 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:26,344 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:26,345 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:26,345 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: '' (длина: 0)
+2025-09-26 17:23:26,345 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 2 - авто-язык
+2025-09-26 17:23:26,346 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\engine-on-the-spot_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-d2f1e7b9-478d-4217-a34a-a3de27e70c91', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:26,346 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:26,347 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:26,347 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:26,347 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:26,350 - DEBUG - send_request_body.complete
+2025-09-26 17:23:26,350 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:28,528 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:28 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'1'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'605'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'616'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_539e62576c734938b6c61a3b7471edaf'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b4deac8c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:28,528 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:28,529 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:28,529 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:28,529 - DEBUG - response_closed.started
+2025-09-26 17:23:28,529 - DEBUG - response_closed.complete
+2025-09-26 17:23:28,530 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:28 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '1', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '605', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '616', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_539e62576c734938b6c61a3b7471edaf', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b4deac8c7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:28,530 - DEBUG - request_id: req_539e62576c734938b6c61a3b7471edaf
+2025-09-26 17:23:28,530 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:28,530 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:28,531 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:28,531 - DEBUG - ТРАНСКРИПЦИЯ: Результат 2: '' (длина: 0)
+2025-09-26 17:23:28,582 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:23:28,582 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: ''
+2025-09-26 17:23:28,582 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:28,583 - DEBUG - ФИЛЬТРАЦИЯ: Пустой результат или промпт
+2025-09-26 17:23:28,634 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\Incode - Know.mp3
+2025-09-26 17:23:28,689 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:28,689 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\Incode - Know.mp3
+2025-09-26 17:23:28,689 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:28,689 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:28,689 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\Incode - Know.mp3
+2025-09-26 17:23:29,242 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:29,242 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\Incode - Know.mp3
+2025-09-26 17:23:29,618 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\Incode - Know_vocals.wav
+2025-09-26 17:23:29,629 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:29,629 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:29,636 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\Incode - Know_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-68a930d6-1923-4640-8c3b-71c0ed91842e', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:29,637 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:29,637 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:29,638 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:29,638 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:29,644 - DEBUG - send_request_body.complete
+2025-09-26 17:23:29,644 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:33,547 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:33 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'45'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'874'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'889'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_b8519d33f73a4a72bec93bec1feb02fd'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b627fe7c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:33,548 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:33,548 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:33,548 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:33,549 - DEBUG - response_closed.started
+2025-09-26 17:23:33,549 - DEBUG - response_closed.complete
+2025-09-26 17:23:33,549 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:33 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '45', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '874', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '889', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_b8519d33f73a4a72bec93bec1feb02fd', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b627fe7c7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:33,550 - DEBUG - request_id: req_b8519d33f73a4a72bec93bec1feb02fd
+2025-09-26 17:23:33,550 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Sorry, I can't transcribe non-verbal sounds.'
+2025-09-26 17:23:33,550 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:33,551 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Sorry, I can't transcribe non-verbal sounds.'
+2025-09-26 17:23:33,551 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Sorry, I can't transcribe non-verbal sounds.' (длина: 44)
+2025-09-26 17:23:33,646 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:23:33,647 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Sorry, I can't transcribe non-verbal sounds.'
+2025-09-26 17:23:33,647 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:33,647 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Sorry, I can't transcribe non-verbal sounds.'
+2025-09-26 17:23:33,650 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-f4e36fae-5405-47bc-acb2-aa9fadd41a07', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': "Проанализируй следующий транскрипт аудио и классифицируй его:\n\nSorry, I can't transcribe non-verbal sounds."}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:23:33,652 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:23:33,652 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:33,652 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:33,652 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:33,653 - DEBUG - send_request_body.complete
+2025-09-26 17:23:33,653 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:35,966 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:35 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1762'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'2042'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'198678'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'396ms'), (b'x-request-id', b'req_dd28e888f1e2426d8ab660a014d5ea1f'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b7b8a91c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:35,967 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:23:35,967 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:35,968 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:35,968 - DEBUG - response_closed.started
+2025-09-26 17:23:35,968 - DEBUG - response_closed.complete
+2025-09-26 17:23:35,968 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:35 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1762', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '2042', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '198678', 'x-ratelimit-reset-requests': '8.64s', 'x-ratelimit-reset-tokens': '396ms', 'x-request-id': 'req_dd28e888f1e2426d8ab660a014d5ea1f', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b7b8a91c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:35,969 - DEBUG - request_id: req_dd28e888f1e2426d8ab660a014d5ea1f
+2025-09-26 17:23:36,066 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\test_noise.wav
+2025-09-26 17:23:36,067 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:36,067 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\test_noise.wav
+2025-09-26 17:23:36,067 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:36,067 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:36,067 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\test_noise.wav
+2025-09-26 17:23:36,605 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:36,605 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\test_noise.wav
+2025-09-26 17:23:36,633 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\test_noise_vocals.wav
+2025-09-26 17:23:36,639 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:36,639 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:36,648 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\test_noise_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-523621c0-fcad-4e99-932a-18892f34a4ce', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:36,649 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:36,649 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:36,649 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:36,649 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:36,651 - DEBUG - send_request_body.complete
+2025-09-26 17:23:36,651 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:37,515 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:37 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'13'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'436'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'449'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_404f3aff96d7444493a19c741a24cfdb'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b8e492cc7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:37,516 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:37,516 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:37,516 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:37,516 - DEBUG - response_closed.started
+2025-09-26 17:23:37,517 - DEBUG - response_closed.complete
+2025-09-26 17:23:37,517 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:37 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '13', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '436', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '449', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_404f3aff96d7444493a19c741a24cfdb', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b8e492cc7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:37,517 - DEBUG - request_id: req_404f3aff96d7444493a19c741a24cfdb
+2025-09-26 17:23:37,517 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Тишина'
+2025-09-26 17:23:37,518 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:37,518 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Тишина'
+2025-09-26 17:23:37,518 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Тишина' (длина: 6)
+2025-09-26 17:23:37,518 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 2 - авто-язык
+2025-09-26 17:23:37,519 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\test_noise_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-913a032f-a2d1-476b-aad8-b1d146fb3641', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:37,519 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:37,520 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:37,520 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:37,520 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:37,521 - DEBUG - send_request_body.complete
+2025-09-26 17:23:37,522 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:38,316 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:38 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Content-Length', b'22'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'459'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'470'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_e29574dd858340e199ac586f4185b055'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b93b892c7da-TLL'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:38,317 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:38,317 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:38,317 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:38,318 - DEBUG - response_closed.started
+2025-09-26 17:23:38,318 - DEBUG - response_closed.complete
+2025-09-26 17:23:38,318 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:38 GMT', 'content-type': 'text/plain; charset=utf-8', 'content-length': '22', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '459', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '470', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_e29574dd858340e199ac586f4185b055', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b93b892c7da-TLL', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:38,318 - DEBUG - request_id: req_e29574dd858340e199ac586f4185b055
+2025-09-26 17:23:38,319 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'двенадцать.'
+2025-09-26 17:23:38,319 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:38,319 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'двенадцать.'
+2025-09-26 17:23:38,320 - DEBUG - ТРАНСКРИПЦИЯ: Результат 2: 'двенадцать.' (длина: 11)
+2025-09-26 17:23:38,323 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:23:38,323 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'двенадцать.'
+2025-09-26 17:23:38,324 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:38,324 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'двенадцать.'
+2025-09-26 17:23:38,325 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\test_speech.mp3
+2025-09-26 17:23:38,327 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:38,327 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\test_speech.mp3
+2025-09-26 17:23:38,327 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:38,328 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:38,328 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\test_speech.mp3
+2025-09-26 17:23:38,824 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:38,824 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\test_speech.mp3
+2025-09-26 17:23:38,845 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\test_speech_vocals.wav
+2025-09-26 17:23:38,853 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:38,853 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:38,860 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\test_speech_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-69f5750c-3577-48c1-9348-5c9af810aade', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:38,861 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:38,861 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:38,862 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:38,862 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:38,863 - DEBUG - send_request_body.complete
+2025-09-26 17:23:38,863 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:39,641 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:39 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'423'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'477'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_e661368ec1a74d7b81c18baf9e5bba87'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536b9c18dfc7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:39,641 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:39,641 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:39,642 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:39,642 - DEBUG - response_closed.started
+2025-09-26 17:23:39,642 - DEBUG - response_closed.complete
+2025-09-26 17:23:39,642 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:39 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '423', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '477', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_e661368ec1a74d7b81c18baf9e5bba87', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536b9c18dfc7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:39,643 - DEBUG - request_id: req_e661368ec1a74d7b81c18baf9e5bba87
+2025-09-26 17:23:39,643 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Привет, наконец-то это случилось.'
+2025-09-26 17:23:39,643 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:39,643 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Привет, наконец-то это случилось.'
+2025-09-26 17:23:39,643 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Привет, наконец-то это случилось.' (длина: 33)
+2025-09-26 17:23:39,648 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:23:39,648 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Привет, наконец-то это случилось.'
+2025-09-26 17:23:39,648 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:39,648 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Привет, наконец-то это случилось.'
+2025-09-26 17:23:39,649 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-7d7c5f4c-a8f4-4b10-99d1-75ede9f74db1', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': 'Проанализируй следующий транскрипт аудио и классифицируй его:\n\nПривет, наконец-то это случилось.'}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:23:39,650 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:23:39,651 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:39,651 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:39,651 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:39,652 - DEBUG - send_request_body.complete
+2025-09-26 17:23:39,652 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:41,350 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:41 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1442'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1469'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'198675'), (b'x-ratelimit-reset-requests', b'11.546s'), (b'x-ratelimit-reset-tokens', b'397ms'), (b'x-request-id', b'req_8a3d7bcffbb4453eb503e16ee58b24ac'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536ba10ea8c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:41,351 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:23:41,351 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:41,352 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:41,352 - DEBUG - response_closed.started
+2025-09-26 17:23:41,352 - DEBUG - response_closed.complete
+2025-09-26 17:23:41,352 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:41 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1442', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1469', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9998', 'x-ratelimit-remaining-tokens': '198675', 'x-ratelimit-reset-requests': '11.546s', 'x-ratelimit-reset-tokens': '397ms', 'x-request-id': 'req_8a3d7bcffbb4453eb503e16ee58b24ac', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536ba10ea8c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:41,353 - DEBUG - request_id: req_8a3d7bcffbb4453eb503e16ee58b24ac
+2025-09-26 17:23:41,354 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ЛЮБОВЬ.mp3
+2025-09-26 17:23:41,466 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:41,466 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\ЛЮБОВЬ.mp3
+2025-09-26 17:23:41,466 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:41,466 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:41,467 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ЛЮБОВЬ.mp3
+2025-09-26 17:23:42,083 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:42,083 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\ЛЮБОВЬ.mp3
+2025-09-26 17:23:42,920 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\ЛЮБОВЬ_vocals.wav
+2025-09-26 17:23:42,941 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:42,941 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:42,951 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-60bc59cd-3fcd-4b97-afc7-82aa93a44721', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:42,952 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:42,952 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:42,953 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:42,953 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:42,969 - DEBUG - send_request_body.complete
+2025-09-26 17:23:42,970 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:49,763 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:49 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1485'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1497'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_e50505e8bbb44b009d3b55d72c0996e5'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536bb5afc0c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:49,764 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:49,764 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:49,765 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:49,765 - DEBUG - response_closed.started
+2025-09-26 17:23:49,765 - DEBUG - response_closed.complete
+2025-09-26 17:23:49,765 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:49 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1485', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1497', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_e50505e8bbb44b009d3b55d72c0996e5', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536bb5afc0c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:49,766 - DEBUG - request_id: req_e50505e8bbb44b009d3b55d72c0996e5
+2025-09-26 17:23:49,766 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой...'
+2025-09-26 17:23:49,766 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:49,767 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой...'
+2025-09-26 17:23:49,767 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой...' (длина: 185)
+2025-09-26 17:23:49,767 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой...'
+2025-09-26 17:23:49,767 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:49,768 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой в игру под названием любовь.
+Мы снова играем с тобой...'
+2025-09-26 17:23:49,769 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-8beb5287-fb4a-413b-b68a-f7126236809d', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': 'Проанализируй следующий транскрипт аудио и классифицируй его:\n\nМы снова играем с тобой в игру под названием любовь.\nМы снова играем с тобой в игру под названием любовь.\nМы снова играем с тобой в игру под названием любовь.\nМы снова играем с тобой...'}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:23:49,770 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:23:49,770 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:49,771 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:49,771 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:49,771 - DEBUG - send_request_body.complete
+2025-09-26 17:23:49,771 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:51,889 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:51 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1812'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1858'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'198608'), (b'x-ratelimit-reset-requests', b'10.03s'), (b'x-ratelimit-reset-tokens', b'417ms'), (b'x-request-id', b'req_f102f454e605429ba713eb5af3794b9c'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536be04cfbc7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:51,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:23:51,890 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:51,897 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:51,898 - DEBUG - response_closed.started
+2025-09-26 17:23:51,898 - DEBUG - response_closed.complete
+2025-09-26 17:23:51,898 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:51 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1812', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1858', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9998', 'x-ratelimit-remaining-tokens': '198608', 'x-ratelimit-reset-requests': '10.03s', 'x-ratelimit-reset-tokens': '417ms', 'x-request-id': 'req_f102f454e605429ba713eb5af3794b9c', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536be04cfbc7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:51,899 - DEBUG - request_id: req_f102f454e605429ba713eb5af3794b9c
+2025-09-26 17:23:51,900 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:23:51,952 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:51,952 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:23:51,952 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:51,953 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:51,953 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:23:52,490 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:52,490 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:23:52,885 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\ПОЗВОНИ МНЕ_vocals.wav
+2025-09-26 17:23:52,897 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:52,897 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:52,904 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ПОЗВОНИ МНЕ_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-d87ad274-2157-4528-8cde-31dc0fcb04ea', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:52,905 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:52,905 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:52,905 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:52,906 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:52,911 - DEBUG - send_request_body.complete
+2025-09-26 17:23:52,911 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:56,731 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:56 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1278'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1291'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_87df5b145c6b4ab39080d4353210c2b4'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536bf3dad6c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:56,732 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:23:56,732 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:56,732 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:56,733 - DEBUG - response_closed.started
+2025-09-26 17:23:56,733 - DEBUG - response_closed.complete
+2025-09-26 17:23:56,733 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:56 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1278', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1291', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_87df5b145c6b4ab39080d4353210c2b4', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536bf3dad6c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:56,733 - DEBUG - request_id: req_87df5b145c6b4ab39080d4353210c2b4
+2025-09-26 17:23:56,734 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:23:56,734 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:56,734 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:23:56,734 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.' (длина: 135)
+2025-09-26 17:23:56,735 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:23:56,735 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:23:56,735 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:23:56,736 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-2dcb24d3-5a9f-4347-a6ef-98f41e9464d1', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': 'Проанализируй следующий транскрипт аудио и классифицируй его:\n\nПозвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь. Позвони мне, не говори мне, что ты гонишь, снова мозг мне выносишь.'}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:23:56,737 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:23:56,737 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:56,737 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:56,738 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:56,738 - DEBUG - send_request_body.complete
+2025-09-26 17:23:56,738 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:58,227 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:23:58 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1210'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1222'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'198631'), (b'x-ratelimit-reset-requests', b'11.703s'), (b'x-ratelimit-reset-tokens', b'410ms'), (b'x-request-id', b'req_e09ae7b9cbad422bb407ba2c4fa91998'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536c0bdd57c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:23:58,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:23:58,228 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:23:58,235 - DEBUG - receive_response_body.complete
+2025-09-26 17:23:58,235 - DEBUG - response_closed.started
+2025-09-26 17:23:58,235 - DEBUG - response_closed.complete
+2025-09-26 17:23:58,236 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:23:58 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1210', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1222', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9998', 'x-ratelimit-remaining-tokens': '198631', 'x-ratelimit-reset-requests': '11.703s', 'x-ratelimit-reset-tokens': '410ms', 'x-request-id': 'req_e09ae7b9cbad422bb407ba2c4fa91998', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536c0bdd57c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:23:58,236 - DEBUG - request_id: req_e09ae7b9cbad422bb407ba2c4fa91998
+2025-09-26 17:23:58,237 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\РИНГТОН.mp3
+2025-09-26 17:23:58,309 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:23:58,310 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\РИНГТОН.mp3
+2025-09-26 17:23:58,310 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:23:58,310 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:23:58,310 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\РИНГТОН.mp3
+2025-09-26 17:23:58,868 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:23:58,869 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\РИНГТОН.mp3
+2025-09-26 17:23:59,381 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\РИНГТОН_vocals.wav
+2025-09-26 17:23:59,392 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 17:23:59,392 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:23:59,399 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\РИНГТОН_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-f683aa48-4cfa-4a7b-bd63-5381c9660cac', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 17:23:59,400 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:23:59,400 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:23:59,401 - DEBUG - send_request_headers.complete
+2025-09-26 17:23:59,401 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:23:59,408 - DEBUG - send_request_body.complete
+2025-09-26 17:23:59,408 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:24:04,668 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:24:04 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1871'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1883'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_a9de9f72c4054d1e94aeead57c52c370'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536c1c7fc2c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:24:04,668 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:24:04,669 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:24:04,669 - DEBUG - receive_response_body.complete
+2025-09-26 17:24:04,669 - DEBUG - response_closed.started
+2025-09-26 17:24:04,669 - DEBUG - response_closed.complete
+2025-09-26 17:24:04,670 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:24:04 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1871', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1883', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_a9de9f72c4054d1e94aeead57c52c370', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536c1c7fc2c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:24:04,670 - DEBUG - request_id: req_a9de9f72c4054d1e94aeead57c52c370
+2025-09-26 17:24:04,670 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Find me, find me
+You can find, find, find me, find me
+You can find, find, find me, find me
+Tearing up downtown with the high beams
+No need for rearview when they can't catch you
+I never look back, never look, look like I want to
+I'm so innocent, kissing your tattoos, sweet like cinnamon
+No need for rearview when they can't catch you'
+2025-09-26 17:24:04,671 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:24:04,671 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Find me, find me
+You can find, find, find me, find me
+You can find, find, find me, find me
+Tearing up downtown with the high beams
+No need for rearview when they can't catch you
+I never look back, never look, look like I want to
+I'm so innocent, kissing your tattoos, sweet like cinnamon
+No need for rearview when they can't catch you'
+2025-09-26 17:24:04,672 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Find me, find me
+You can find, find, find me, find me
+You can find, find, find me, find me
+Tearing up downtown with the high beams
+No need for rearview when they can't catch you
+I never look back, never look, look like I want to
+I'm so innocent, kissing your tattoos, sweet like cinnamon
+No need for rearview when they can't catch you' (длина: 334)
+2025-09-26 17:24:04,672 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Find me, find me
+You can find, find, find me, find me
+You can find, find, find me, find me
+Tearing up downtown with the high beams
+No need for rearview when they can't catch you
+I never look back, never look, look like I want to
+I'm so innocent, kissing your tattoos, sweet like cinnamon
+No need for rearview when they can't catch you'
+2025-09-26 17:24:04,672 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 17:24:04,672 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Find me, find me
+You can find, find, find me, find me
+You can find, find, find me, find me
+Tearing up downtown with the high beams
+No need for rearview when they can't catch you
+I never look back, never look, look like I want to
+I'm so innocent, kissing your tattoos, sweet like cinnamon
+No need for rearview when they can't catch you'
+2025-09-26 17:24:04,673 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-9be11f9b-2bdc-4bcb-871b-4766164d7901', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': "Проанализируй следующий транскрипт аудио и классифицируй его:\n\nFind me, find me\nYou can find, find, find me, find me\nYou can find, find, find me, find me\nTearing up downtown with the high beams\nNo need for rearview when they can't catch you\nI never look back, never look, look like I want to\nI'm so innocent, kissing your tattoos, sweet like cinnamon\nNo need for rearview when they can't catch you"}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:24:04,675 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:24:04,675 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:24:04,676 - DEBUG - send_request_headers.complete
+2025-09-26 17:24:04,676 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:24:04,676 - DEBUG - send_request_body.complete
+2025-09-26 17:24:04,676 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:24:06,409 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:24:06 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1454'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1483'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'198607'), (b'x-ratelimit-reset-requests', b'12.415s'), (b'x-ratelimit-reset-tokens', b'417ms'), (b'x-request-id', b'req_ae2620cb5fd04667a3d50cf2b73b930d'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98536c3d6bf3c7da-TLL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:24:06,409 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:24:06,410 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:24:06,416 - DEBUG - receive_response_body.complete
+2025-09-26 17:24:06,416 - DEBUG - response_closed.started
+2025-09-26 17:24:06,416 - DEBUG - response_closed.complete
+2025-09-26 17:24:06,416 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:24:06 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1454', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1483', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9998', 'x-ratelimit-remaining-tokens': '198607', 'x-ratelimit-reset-requests': '12.415s', 'x-ratelimit-reset-tokens': '417ms', 'x-request-id': 'req_ae2620cb5fd04667a3d50cf2b73b930d', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98536c3d6bf3c7da-TLL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:24:06,417 - DEBUG - request_id: req_ae2620cb5fd04667a3d50cf2b73b930d

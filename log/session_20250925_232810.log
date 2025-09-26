@@ -1,0 +1,65 @@
+2025-09-25 23:28:10,554 - INFO - Логирование настроено. Файл лога: log\session_20250925_232810.log
+2025-09-25 23:28:10,555 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ЛЮБОВЬ.mp3
+2025-09-25 23:28:12,443 - DEBUG - Loading FFmpeg6
+2025-09-25 23:28:12,445 - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-25 23:28:12,448 - DEBUG - Loading FFmpeg5
+2025-09-25 23:28:12,449 - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-25 23:28:12,450 - DEBUG - Loading FFmpeg4
+2025-09-25 23:28:12,451 - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-25 23:28:12,452 - DEBUG - Loading FFmpeg
+2025-09-25 23:28:12,452 - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2025-09-25 23:28:12,538 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ЛЮБОВЬ.mp3

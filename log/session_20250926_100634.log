@@ -1,0 +1,164 @@
+2025-09-26 10:06:34,489 - INFO - Логирование настроено. Файл лога: log\session_20250926_100634.log
+2025-09-26 10:06:34,491 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ЛЮБОВЬ.mp3
+2025-09-26 10:06:34,491 - DEBUG - УЛУЧШЕНИЕ АУДИО: Режим качества: fast, параметры: {'model': 'mdx', 'shifts': 1, 'overlap': 0.25, 'jobs': 1}
+2025-09-26 10:06:34,491 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла: examples\ЛЮБОВЬ.mp3
+2025-09-26 10:06:34,491 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 10:06:36,362 - DEBUG - Loading FFmpeg6
+2025-09-26 10:06:36,364 - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 10:06:36,406 - DEBUG - Loading FFmpeg5
+2025-09-26 10:06:36,407 - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 10:06:36,412 - DEBUG - Loading FFmpeg4
+2025-09-26 10:06:36,414 - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 10:06:36,415 - DEBUG - Loading FFmpeg
+2025-09-26 10:06:36,415 - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2025-09-26 10:06:36,499 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 10:06:36,499 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ЛЮБОВЬ.mp3
+2025-09-26 10:08:34,140 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\ЛЮБОВЬ_vocals.mp3
+2025-09-26 10:08:34,140 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+2025-09-26 10:08:34,141 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 10:08:35,148 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-b1737afc-15c3-4c66-ad7d-917a60bf9744', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 10:08:35,252 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 10:08:35,253 - DEBUG - connect_tcp.started host='127.0.0.1' port=8888 local_address=None timeout=5.0 socket_options=None
+2025-09-26 10:08:35,266 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001919BA4EBA0>
+2025-09-26 10:08:35,266 - DEBUG - send_request_headers.started request=<Request [b'CONNECT']>
+2025-09-26 10:08:35,267 - DEBUG - send_request_headers.complete
+2025-09-26 10:08:35,267 - DEBUG - send_request_body.started request=<Request [b'CONNECT']>
+2025-09-26 10:08:35,267 - DEBUG - send_request_body.complete
+2025-09-26 10:08:35,267 - DEBUG - receive_response_headers.started request=<Request [b'CONNECT']>
+2025-09-26 10:08:35,268 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'Connection established', [])
+2025-09-26 10:08:35,268 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001919B5E7BF0> server_hostname='api.openai.com' timeout=5.0
+2025-09-26 10:08:35,672 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001919BA6AC10>
+2025-09-26 10:08:35,673 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:35,673 - DEBUG - send_request_headers.complete
+2025-09-26 10:08:35,674 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 10:08:35,678 - DEBUG - send_request_body.complete
+2025-09-26 10:08:35,678 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:39,139 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 07:08:39 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1596'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1611'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_9033eded632143b1ba9b41fcdfa6ca37'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=KWu3hVRn9DNoqcmBuR40C.ruVofSVEbpsKyLd9dFs_A-1758870519-1.0.1.1-QfkFrTu0Df4lqQHf5bupIwBMZxJa0tVkjPrp3x3_IjEWZjdAseoOizvMv9_9CRJ4tLQWENEaUnLv8pc2kgFR9088E2Gkarh17obPCNoBfzk; path=/; expires=Fri, 26-Sep-25 07:38:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=.s8mZd1wpwhOrjw2Nl6SublTLk5ib0Vc7OgeeQoHnN4-1758870519108-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9850ee534c838d57-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 10:08:39,140 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 10:08:39,141 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 10:08:39,141 - DEBUG - receive_response_body.complete
+2025-09-26 10:08:39,141 - DEBUG - response_closed.started
+2025-09-26 10:08:39,141 - DEBUG - response_closed.complete
+2025-09-26 10:08:39,142 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers([('date', 'Fri, 26 Sep 2025 07:08:39 GMT'), ('content-type', 'text/plain; charset=utf-8'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'yurisun'), ('openai-processing-ms', '1596'), ('openai-project', 'proj_Llb21yVk5b2whxj0ZTkY3iYI'), ('openai-version', '2020-10-01'), ('x-envoy-upstream-service-time', '1611'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-reset-requests', '120ms'), ('x-request-id', 'req_9033eded632143b1ba9b41fcdfa6ca37'), ('x-openai-proxy-wasm', 'v0.1'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=KWu3hVRn9DNoqcmBuR40C.ruVofSVEbpsKyLd9dFs_A-1758870519-1.0.1.1-QfkFrTu0Df4lqQHf5bupIwBMZxJa0tVkjPrp3x3_IjEWZjdAseoOizvMv9_9CRJ4tLQWENEaUnLv8pc2kgFR9088E2Gkarh17obPCNoBfzk; path=/; expires=Fri, 26-Sep-25 07:38:39 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=.s8mZd1wpwhOrjw2Nl6SublTLk5ib0Vc7OgeeQoHnN4-1758870519108-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '9850ee534c838d57-HEL'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-09-26 10:08:39,142 - DEBUG - request_id: req_9033eded632143b1ba9b41fcdfa6ca37
+2025-09-26 10:08:39,142 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Мы снова играем с соборами в игру под названием любовь.'
+2025-09-26 10:08:39,143 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 10:08:39,143 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Мы снова играем с соборами в игру под названием любовь.'
+2025-09-26 10:08:39,144 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Мы снова играем с соборами в игру под названием любовь.' (длина: 55)
+2025-09-26 10:08:39,144 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 4 - музыкальный промпт
+2025-09-26 10:08:39,144 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ_vocals.mp3'>)))], 'idempotency_key': 'stainless-python-retry-b065962a-69a9-41ea-8101-16b07354e231', 'json_data': {'model': 'gpt-4o-transcribe', 'prompt': 'Это музыкальная композиция с вокалом. Распознай ВСЕ слова песни от начала до конца. Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не интерпретируй, не сокращай. Внимательно слушай начало песни - там тоже есть слова. Если есть повторяющийся припев - распознай ВСЕ повторения полностью. Если это инструментальная музыка без слов - верни пустую строку. ВАЖНО: Распознай весь текст песни, включая все куплеты и припевы. Не останавливайся на первом фрагменте - слушай до конца.', 'response_format': 'text'}}
+2025-09-26 10:08:39,145 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 10:08:39,145 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:39,146 - DEBUG - send_request_headers.complete
+2025-09-26 10:08:39,146 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 10:08:39,149 - DEBUG - send_request_body.complete
+2025-09-26 10:08:39,149 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:41,622 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 07:08:41 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1117'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1130'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_5a539bc569344e2a81d6453262023914'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9850ee68f91b8d57-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 10:08:41,623 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 10:08:41,623 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 10:08:41,623 - DEBUG - receive_response_body.complete
+2025-09-26 10:08:41,623 - DEBUG - response_closed.started
+2025-09-26 10:08:41,624 - DEBUG - response_closed.complete
+2025-09-26 10:08:41,624 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 07:08:41 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1117', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1130', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_5a539bc569344e2a81d6453262023914', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9850ee68f91b8d57-HEL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 10:08:41,624 - DEBUG - request_id: req_5a539bc569344e2a81d6453262023914
+2025-09-26 10:08:41,625 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами.'
+2025-09-26 10:08:41,625 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Это музыкальная композиция с вокалом. Распознай ВСЕ слова песни от начала до конца. Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не интерпретируй, не сокращай. Внимательно слушай начало песни - там тоже есть слова. Если есть повторяющийся припев - распознай ВСЕ повторения полностью. Если это инструментальная музыка без слов - верни пустую строку. ВАЖНО: Распознай весь текст песни, включая все куплеты и припевы. Не останавливайся на первом фрагменте - слушай до конца.'
+2025-09-26 10:08:41,625 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами.'
+2025-09-26 10:08:41,625 - DEBUG - ТРАНСКРИПЦИЯ: Результат музыкального промпта: 'Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами.' (длина: 198)
+2025-09-26 10:08:41,626 - DEBUG - ТРАНСКРИПЦИЯ: Выбран результат музыкального промпта
+2025-09-26 10:08:41,626 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами.'
+2025-09-26 10:08:41,626 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 10:08:41,626 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами, в игру под названием любовь. Мы снова играем с соборами.'
+2025-09-26 10:08:41,627 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ЛЮБОВЬ.mp3'>)))], 'idempotency_key': 'stainless-python-retry-6a099f2d-d6aa-4b15-928c-690b8d8f8970', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.', 'response_format': 'text'}}
+2025-09-26 10:08:41,628 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 10:08:41,629 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:41,629 - DEBUG - send_request_headers.complete
+2025-09-26 10:08:41,629 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 10:08:41,636 - DEBUG - send_request_body.complete
+2025-09-26 10:08:41,636 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:46,452 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 07:08:46 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'1806'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'1823'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_53caa6eca7d741c397871d1e918d5e3d'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9850ee788dba8d57-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 10:08:46,453 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 10:08:46,453 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 10:08:46,453 - DEBUG - receive_response_body.complete
+2025-09-26 10:08:46,454 - DEBUG - response_closed.started
+2025-09-26 10:08:46,454 - DEBUG - response_closed.complete
+2025-09-26 10:08:46,454 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 07:08:46 GMT', 'content-type': 'text/plain; charset=utf-8', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '1806', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '1823', 'x-ratelimit-limit-requests': '500', 'x-ratelimit-remaining-requests': '499', 'x-ratelimit-reset-requests': '120ms', 'x-request-id': 'req_53caa6eca7d741c397871d1e918d5e3d', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9850ee788dba8d57-HEL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 10:08:46,454 - DEBUG - request_id: req_53caa6eca7d741c397871d1e918d5e3d
+2025-09-26 10:08:46,455 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда.'
+2025-09-26 10:08:46,455 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.'
+2025-09-26 10:08:46,455 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда, мы группой названье влюблю.
+На струнах играется морда.'
+2025-09-26 10:08:46,457 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-832f4fb0-5897-43ed-90ed-30c7b345f4b1', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': 'Проанализируй следующий транскрипт аудио и классифицируй его:\n\nНа струнах играется морда, мы группой названье влюблю.\nНа струнах играется морда, мы группой названье влюблю.\nНа струнах играется морда, мы группой названье влюблю.\nНа струнах играется морда.'}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 10:08:46,458 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 10:08:46,459 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:46,459 - DEBUG - send_request_headers.complete
+2025-09-26 10:08:46,459 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 10:08:46,460 - DEBUG - send_request_body.complete
+2025-09-26 10:08:46,460 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 10:08:52,947 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 07:08:52 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'5348'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'5602'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'198603'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'419ms'), (b'x-request-id', b'req_afc500eeee7d4218b819839bca689c40'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9850ee96bd2e8d57-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 10:08:52,948 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 10:08:52,948 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 10:08:52,957 - DEBUG - receive_response_body.complete
+2025-09-26 10:08:52,958 - DEBUG - response_closed.started
+2025-09-26 10:08:52,958 - DEBUG - response_closed.complete
+2025-09-26 10:08:52,958 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 07:08:52 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '5348', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '5602', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '198603', 'x-ratelimit-reset-requests': '8.64s', 'x-ratelimit-reset-tokens': '419ms', 'x-request-id': 'req_afc500eeee7d4218b819839bca689c40', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9850ee96bd2e8d57-HEL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 10:08:52,958 - DEBUG - request_id: req_afc500eeee7d4218b819839bca689c40

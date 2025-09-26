@@ -1,0 +1,699 @@
+2025-09-26 17:55:45,302 - INFO - Логирование настроено. Файл лога: log\session_20250926_175545.log
+2025-09-26 17:55:45,303 - INFO - ТРАНСКРИПЦИЯ: Начало анализа файла: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:55:46,800 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1137)
+           2	RESUME(arg=0, lineno=1137)
+           4	LOAD_FAST(arg=0, lineno=1140)
+           6	LOAD_CONST(arg=1, lineno=1140)
+           8	BINARY_SUBSCR(arg=None, lineno=1140)
+          12	STORE_FAST(arg=3, lineno=1140)
+          14	LOAD_FAST(arg=1, lineno=1141)
+          16	UNARY_NEGATIVE(arg=None, lineno=1141)
+          18	LOAD_FAST(arg=3, lineno=1141)
+          20	SWAP(arg=2, lineno=1141)
+          22	COPY(arg=2, lineno=1141)
+          24	COMPARE_OP(arg=58, lineno=1141)
+          28	POP_JUMP_IF_FALSE(arg=6, lineno=1141)
+          32	LOAD_FAST(arg=1, lineno=1141)
+          34	COMPARE_OP(arg=58, lineno=1141)
+          38	POP_JUMP_IF_FALSE(arg=5, lineno=1141)
+          42	JUMP_FORWARD(arg=2, lineno=1141)
+>         44	POP_TOP(arg=None, lineno=1141)
+          46	JUMP_FORWARD(arg=2, lineno=1141)
+>         48	LOAD_CONST(arg=1, lineno=1142)
+          50	STORE_FAST(arg=3, lineno=1142)
+>         52	LOAD_FAST(arg=0, lineno=1144)
+          54	LOAD_CONST(arg=2, lineno=1144)
+          56	BINARY_SUBSCR(arg=None, lineno=1144)
+          60	STORE_FAST(arg=4, lineno=1144)
+          62	LOAD_FAST(arg=1, lineno=1145)
+          64	UNARY_NEGATIVE(arg=None, lineno=1145)
+          66	LOAD_FAST(arg=4, lineno=1145)
+          68	SWAP(arg=2, lineno=1145)
+          70	COPY(arg=2, lineno=1145)
+          72	COMPARE_OP(arg=58, lineno=1145)
+          76	POP_JUMP_IF_FALSE(arg=6, lineno=1145)
+          80	LOAD_FAST(arg=1, lineno=1145)
+          82	COMPARE_OP(arg=58, lineno=1145)
+          86	POP_JUMP_IF_FALSE(arg=5, lineno=1145)
+          90	JUMP_FORWARD(arg=2, lineno=1145)
+>         92	POP_TOP(arg=None, lineno=1145)
+          94	JUMP_FORWARD(arg=2, lineno=1145)
+>         96	LOAD_CONST(arg=1, lineno=1146)
+          98	STORE_FAST(arg=4, lineno=1146)
+>        100	LOAD_FAST(arg=2, lineno=1148)
+         102	TO_BOOL(arg=None, lineno=1148)
+         110	POP_JUMP_IF_FALSE(arg=45, lineno=1148)
+         114	LOAD_GLOBAL(arg=0, lineno=1149)
+         124	LOAD_ATTR(arg=2, lineno=1149)
+         144	PUSH_NULL(arg=None, lineno=1149)
+         146	LOAD_FAST(arg=3, lineno=1149)
+         148	CALL(arg=1, lineno=1149)
+         156	LOAD_GLOBAL(arg=0, lineno=1149)
+         166	LOAD_ATTR(arg=2, lineno=1149)
+         186	PUSH_NULL(arg=None, lineno=1149)
+         188	LOAD_FAST(arg=4, lineno=1149)
+         190	CALL(arg=1, lineno=1149)
+         198	COMPARE_OP(arg=103, lineno=1149)
+         202	RETURN_VALUE(arg=None, lineno=1149)
+>        204	LOAD_GLOBAL(arg=0, lineno=1151)
+         214	LOAD_ATTR(arg=4, lineno=1151)
+         234	PUSH_NULL(arg=None, lineno=1151)
+         236	LOAD_FAST(arg=3, lineno=1151)
+         238	CALL(arg=1, lineno=1151)
+         246	LOAD_GLOBAL(arg=0, lineno=1151)
+         256	LOAD_ATTR(arg=4, lineno=1151)
+         276	PUSH_NULL(arg=None, lineno=1151)
+         278	LOAD_FAST(arg=4, lineno=1151)
+         280	CALL(arg=1, lineno=1151)
+         288	COMPARE_OP(arg=103, lineno=1151)
+         292	RETURN_VALUE(arg=None, lineno=1151)
+2025-09-26 17:55:46,802 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:55:46,803 - DEBUG - stack: []
+2025-09-26 17:55:46,803 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:55:46,803 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1137)
+2025-09-26 17:55:46,804 - DEBUG - stack []
+2025-09-26 17:55:46,804 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1137)
+2025-09-26 17:55:46,804 - DEBUG - stack []
+2025-09-26 17:55:46,804 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1140)
+2025-09-26 17:55:46,804 - DEBUG - stack []
+2025-09-26 17:55:46,805 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1140)
+2025-09-26 17:55:46,805 - DEBUG - stack ['$x4.0']
+2025-09-26 17:55:46,805 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1140)
+2025-09-26 17:55:46,805 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:55:46,805 - DEBUG - dispatch pc=12, inst=STORE_FAST(arg=3, lineno=1140)
+2025-09-26 17:55:46,806 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:55:46,806 - DEBUG - dispatch pc=14, inst=LOAD_FAST(arg=1, lineno=1141)
+2025-09-26 17:55:46,806 - DEBUG - stack []
+2025-09-26 17:55:46,806 - DEBUG - dispatch pc=16, inst=UNARY_NEGATIVE(arg=None, lineno=1141)
+2025-09-26 17:55:46,806 - DEBUG - stack ['$threshold14.3']
+2025-09-26 17:55:46,807 - DEBUG - dispatch pc=18, inst=LOAD_FAST(arg=3, lineno=1141)
+2025-09-26 17:55:46,807 - DEBUG - stack ['$16unary_negative.4']
+2025-09-26 17:55:46,807 - DEBUG - dispatch pc=20, inst=SWAP(arg=2, lineno=1141)
+2025-09-26 17:55:46,807 - DEBUG - stack ['$16unary_negative.4', '$x018.5']
+2025-09-26 17:55:46,807 - DEBUG - dispatch pc=22, inst=COPY(arg=2, lineno=1141)
+2025-09-26 17:55:46,807 - DEBUG - stack ['$x018.5', '$16unary_negative.4']
+2025-09-26 17:55:46,808 - DEBUG - dispatch pc=24, inst=COMPARE_OP(arg=58, lineno=1141)
+2025-09-26 17:55:46,808 - DEBUG - stack ['$x018.5', '$16unary_negative.4', '$x018.5']
+2025-09-26 17:55:46,808 - DEBUG - dispatch pc=28, inst=POP_JUMP_IF_FALSE(arg=6, lineno=1141)
+2025-09-26 17:55:46,808 - DEBUG - stack ['$x018.5', '$24compare_op.6']
+2025-09-26 17:55:46,808 - DEBUG - end state. edges=[Edge(pc=32, stack=('$x018.5',), blockstack=(), npush=0), Edge(pc=44, stack=('$x018.5',), blockstack=(), npush=0)]
+2025-09-26 17:55:46,808 - DEBUG - pending: deque([State(pc_initial=32 nstack_initial=1), State(pc_initial=44 nstack_initial=1)])
+2025-09-26 17:55:46,808 - DEBUG - stack: ['$phi32.0']
+2025-09-26 17:55:46,809 - DEBUG - state.pc_initial: State(pc_initial=32 nstack_initial=1)
+2025-09-26 17:55:46,809 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=1, lineno=1141)
+2025-09-26 17:55:46,809 - DEBUG - stack ['$phi32.0']
+2025-09-26 17:55:46,809 - DEBUG - dispatch pc=34, inst=COMPARE_OP(arg=58, lineno=1141)
+2025-09-26 17:55:46,809 - DEBUG - stack ['$phi32.0', '$threshold32.1']
+2025-09-26 17:55:46,809 - DEBUG - dispatch pc=38, inst=POP_JUMP_IF_FALSE(arg=5, lineno=1141)
+2025-09-26 17:55:46,810 - DEBUG - stack ['$34compare_op.2']
+2025-09-26 17:55:46,810 - DEBUG - end state. edges=[Edge(pc=42, stack=(), blockstack=(), npush=0), Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,810 - DEBUG - pending: deque([State(pc_initial=44 nstack_initial=1), State(pc_initial=42 nstack_initial=0), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:55:46,810 - DEBUG - stack: ['$phi44.0']
+2025-09-26 17:55:46,810 - DEBUG - state.pc_initial: State(pc_initial=44 nstack_initial=1)
+2025-09-26 17:55:46,810 - DEBUG - dispatch pc=44, inst=POP_TOP(arg=None, lineno=1141)
+2025-09-26 17:55:46,810 - DEBUG - stack ['$phi44.0']
+2025-09-26 17:55:46,811 - DEBUG - dispatch pc=46, inst=JUMP_FORWARD(arg=2, lineno=1141)
+2025-09-26 17:55:46,811 - DEBUG - stack []
+2025-09-26 17:55:46,811 - DEBUG - end state. edges=[Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,811 - DEBUG - pending: deque([State(pc_initial=42 nstack_initial=0), State(pc_initial=52 nstack_initial=0), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:55:46,811 - DEBUG - stack: []
+2025-09-26 17:55:46,811 - DEBUG - state.pc_initial: State(pc_initial=42 nstack_initial=0)
+2025-09-26 17:55:46,811 - DEBUG - dispatch pc=42, inst=JUMP_FORWARD(arg=2, lineno=1141)
+2025-09-26 17:55:46,811 - DEBUG - stack []
+2025-09-26 17:55:46,811 - DEBUG - end state. edges=[Edge(pc=48, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,812 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=52 nstack_initial=0), State(pc_initial=48 nstack_initial=0)])
+2025-09-26 17:55:46,812 - DEBUG - stack: []
+2025-09-26 17:55:46,812 - DEBUG - state.pc_initial: State(pc_initial=52 nstack_initial=0)
+2025-09-26 17:55:46,812 - DEBUG - dispatch pc=52, inst=LOAD_FAST(arg=0, lineno=1144)
+2025-09-26 17:55:46,812 - DEBUG - stack []
+2025-09-26 17:55:46,812 - DEBUG - dispatch pc=54, inst=LOAD_CONST(arg=2, lineno=1144)
+2025-09-26 17:55:46,812 - DEBUG - stack ['$x52.0']
+2025-09-26 17:55:46,812 - DEBUG - dispatch pc=56, inst=BINARY_SUBSCR(arg=None, lineno=1144)
+2025-09-26 17:55:46,812 - DEBUG - stack ['$x52.0', '$const54.1.2']
+2025-09-26 17:55:46,813 - DEBUG - dispatch pc=60, inst=STORE_FAST(arg=4, lineno=1144)
+2025-09-26 17:55:46,813 - DEBUG - stack ['$56binary_subscr.2']
+2025-09-26 17:55:46,813 - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=1145)
+2025-09-26 17:55:46,813 - DEBUG - stack []
+2025-09-26 17:55:46,813 - DEBUG - dispatch pc=64, inst=UNARY_NEGATIVE(arg=None, lineno=1145)
+2025-09-26 17:55:46,813 - DEBUG - stack ['$threshold62.3']
+2025-09-26 17:55:46,813 - DEBUG - dispatch pc=66, inst=LOAD_FAST(arg=4, lineno=1145)
+2025-09-26 17:55:46,813 - DEBUG - stack ['$64unary_negative.4']
+2025-09-26 17:55:46,813 - DEBUG - dispatch pc=68, inst=SWAP(arg=2, lineno=1145)
+2025-09-26 17:55:46,813 - DEBUG - stack ['$64unary_negative.4', '$x166.5']
+2025-09-26 17:55:46,814 - DEBUG - dispatch pc=70, inst=COPY(arg=2, lineno=1145)
+2025-09-26 17:55:46,814 - DEBUG - stack ['$x166.5', '$64unary_negative.4']
+2025-09-26 17:55:46,814 - DEBUG - dispatch pc=72, inst=COMPARE_OP(arg=58, lineno=1145)
+2025-09-26 17:55:46,814 - DEBUG - stack ['$x166.5', '$64unary_negative.4', '$x166.5']
+2025-09-26 17:55:46,814 - DEBUG - dispatch pc=76, inst=POP_JUMP_IF_FALSE(arg=6, lineno=1145)
+2025-09-26 17:55:46,814 - DEBUG - stack ['$x166.5', '$72compare_op.6']
+2025-09-26 17:55:46,814 - DEBUG - end state. edges=[Edge(pc=80, stack=('$x166.5',), blockstack=(), npush=0), Edge(pc=92, stack=('$x166.5',), blockstack=(), npush=0)]
+2025-09-26 17:55:46,814 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=48 nstack_initial=0), State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1)])
+2025-09-26 17:55:46,814 - DEBUG - pending: deque([State(pc_initial=48 nstack_initial=0), State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1)])
+2025-09-26 17:55:46,815 - DEBUG - stack: []
+2025-09-26 17:55:46,815 - DEBUG - state.pc_initial: State(pc_initial=48 nstack_initial=0)
+2025-09-26 17:55:46,815 - DEBUG - dispatch pc=48, inst=LOAD_CONST(arg=1, lineno=1142)
+2025-09-26 17:55:46,815 - DEBUG - stack []
+2025-09-26 17:55:46,815 - DEBUG - dispatch pc=50, inst=STORE_FAST(arg=3, lineno=1142)
+2025-09-26 17:55:46,815 - DEBUG - stack ['$const48.0.1']
+2025-09-26 17:55:46,815 - DEBUG - end state. edges=[Edge(pc=52, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,815 - DEBUG - pending: deque([State(pc_initial=80 nstack_initial=1), State(pc_initial=92 nstack_initial=1), State(pc_initial=52 nstack_initial=0)])
+2025-09-26 17:55:46,816 - DEBUG - stack: ['$phi80.0']
+2025-09-26 17:55:46,816 - DEBUG - state.pc_initial: State(pc_initial=80 nstack_initial=1)
+2025-09-26 17:55:46,816 - DEBUG - dispatch pc=80, inst=LOAD_FAST(arg=1, lineno=1145)
+2025-09-26 17:55:46,816 - DEBUG - stack ['$phi80.0']
+2025-09-26 17:55:46,816 - DEBUG - dispatch pc=82, inst=COMPARE_OP(arg=58, lineno=1145)
+2025-09-26 17:55:46,816 - DEBUG - stack ['$phi80.0', '$threshold80.1']
+2025-09-26 17:55:46,817 - DEBUG - dispatch pc=86, inst=POP_JUMP_IF_FALSE(arg=5, lineno=1145)
+2025-09-26 17:55:46,817 - DEBUG - stack ['$82compare_op.2']
+2025-09-26 17:55:46,817 - DEBUG - end state. edges=[Edge(pc=90, stack=(), blockstack=(), npush=0), Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,817 - DEBUG - pending: deque([State(pc_initial=92 nstack_initial=1), State(pc_initial=52 nstack_initial=0), State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,817 - DEBUG - stack: ['$phi92.0']
+2025-09-26 17:55:46,817 - DEBUG - state.pc_initial: State(pc_initial=92 nstack_initial=1)
+2025-09-26 17:55:46,817 - DEBUG - dispatch pc=92, inst=POP_TOP(arg=None, lineno=1145)
+2025-09-26 17:55:46,818 - DEBUG - stack ['$phi92.0']
+2025-09-26 17:55:46,818 - DEBUG - dispatch pc=94, inst=JUMP_FORWARD(arg=2, lineno=1145)
+2025-09-26 17:55:46,818 - DEBUG - stack []
+2025-09-26 17:55:46,818 - DEBUG - end state. edges=[Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,818 - DEBUG - pending: deque([State(pc_initial=52 nstack_initial=0), State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,818 - DEBUG - pending: deque([State(pc_initial=90 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,819 - DEBUG - stack: []
+2025-09-26 17:55:46,819 - DEBUG - state.pc_initial: State(pc_initial=90 nstack_initial=0)
+2025-09-26 17:55:46,819 - DEBUG - dispatch pc=90, inst=JUMP_FORWARD(arg=2, lineno=1145)
+2025-09-26 17:55:46,819 - DEBUG - stack []
+2025-09-26 17:55:46,819 - DEBUG - end state. edges=[Edge(pc=96, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,819 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0), State(pc_initial=100 nstack_initial=0), State(pc_initial=96 nstack_initial=0)])
+2025-09-26 17:55:46,819 - DEBUG - stack: []
+2025-09-26 17:55:46,819 - DEBUG - state.pc_initial: State(pc_initial=100 nstack_initial=0)
+2025-09-26 17:55:46,819 - DEBUG - dispatch pc=100, inst=LOAD_FAST(arg=2, lineno=1148)
+2025-09-26 17:55:46,820 - DEBUG - stack []
+2025-09-26 17:55:46,820 - DEBUG - dispatch pc=102, inst=TO_BOOL(arg=None, lineno=1148)
+2025-09-26 17:55:46,820 - DEBUG - stack ['$zero_pos100.0']
+2025-09-26 17:55:46,820 - DEBUG - dispatch pc=110, inst=POP_JUMP_IF_FALSE(arg=45, lineno=1148)
+2025-09-26 17:55:46,820 - DEBUG - stack ['$102to_bool.1']
+2025-09-26 17:55:46,820 - DEBUG - end state. edges=[Edge(pc=114, stack=(), blockstack=(), npush=0), Edge(pc=204, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,820 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0), State(pc_initial=96 nstack_initial=0), State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0)])
+2025-09-26 17:55:46,820 - DEBUG - pending: deque([State(pc_initial=96 nstack_initial=0), State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0)])
+2025-09-26 17:55:46,821 - DEBUG - stack: []
+2025-09-26 17:55:46,821 - DEBUG - state.pc_initial: State(pc_initial=96 nstack_initial=0)
+2025-09-26 17:55:46,821 - DEBUG - dispatch pc=96, inst=LOAD_CONST(arg=1, lineno=1146)
+2025-09-26 17:55:46,821 - DEBUG - stack []
+2025-09-26 17:55:46,821 - DEBUG - dispatch pc=98, inst=STORE_FAST(arg=4, lineno=1146)
+2025-09-26 17:55:46,821 - DEBUG - stack ['$const96.0.1']
+2025-09-26 17:55:46,821 - DEBUG - end state. edges=[Edge(pc=100, stack=(), blockstack=(), npush=0)]
+2025-09-26 17:55:46,821 - DEBUG - pending: deque([State(pc_initial=114 nstack_initial=0), State(pc_initial=204 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,821 - DEBUG - stack: []
+2025-09-26 17:55:46,821 - DEBUG - state.pc_initial: State(pc_initial=114 nstack_initial=0)
+2025-09-26 17:55:46,822 - DEBUG - dispatch pc=114, inst=LOAD_GLOBAL(arg=0, lineno=1149)
+2025-09-26 17:55:46,822 - DEBUG - stack []
+2025-09-26 17:55:46,822 - DEBUG - dispatch pc=124, inst=LOAD_ATTR(arg=2, lineno=1149)
+2025-09-26 17:55:46,822 - DEBUG - stack ['$114load_global.0']
+2025-09-26 17:55:46,822 - DEBUG - dispatch pc=144, inst=PUSH_NULL(arg=None, lineno=1149)
+2025-09-26 17:55:46,822 - DEBUG - stack ['$124load_attr.1']
+2025-09-26 17:55:46,822 - DEBUG - dispatch pc=146, inst=LOAD_FAST(arg=3, lineno=1149)
+2025-09-26 17:55:46,822 - DEBUG - stack ['$124load_attr.1', '$null$144.2']
+2025-09-26 17:55:46,822 - DEBUG - dispatch pc=148, inst=CALL(arg=1, lineno=1149)
+2025-09-26 17:55:46,822 - DEBUG - stack ['$124load_attr.1', '$null$144.2', '$x0146.3']
+2025-09-26 17:55:46,823 - DEBUG - dispatch pc=156, inst=LOAD_GLOBAL(arg=0, lineno=1149)
+2025-09-26 17:55:46,823 - DEBUG - stack ['$148call.4']
+2025-09-26 17:55:46,823 - DEBUG - dispatch pc=166, inst=LOAD_ATTR(arg=2, lineno=1149)
+2025-09-26 17:55:46,823 - DEBUG - stack ['$148call.4', '$156load_global.5']
+2025-09-26 17:55:46,823 - DEBUG - dispatch pc=186, inst=PUSH_NULL(arg=None, lineno=1149)
+2025-09-26 17:55:46,823 - DEBUG - stack ['$148call.4', '$166load_attr.6']
+2025-09-26 17:55:46,823 - DEBUG - dispatch pc=188, inst=LOAD_FAST(arg=4, lineno=1149)
+2025-09-26 17:55:46,823 - DEBUG - stack ['$148call.4', '$166load_attr.6', '$null$186.7']
+2025-09-26 17:55:46,823 - DEBUG - dispatch pc=190, inst=CALL(arg=1, lineno=1149)
+2025-09-26 17:55:46,824 - DEBUG - stack ['$148call.4', '$166load_attr.6', '$null$186.7', '$x1188.8']
+2025-09-26 17:55:46,824 - DEBUG - dispatch pc=198, inst=COMPARE_OP(arg=103, lineno=1149)
+2025-09-26 17:55:46,824 - DEBUG - stack ['$148call.4', '$190call.9']
+2025-09-26 17:55:46,824 - DEBUG - dispatch pc=202, inst=RETURN_VALUE(arg=None, lineno=1149)
+2025-09-26 17:55:46,824 - DEBUG - stack ['$198compare_op.10']
+2025-09-26 17:55:46,824 - DEBUG - end state. edges=[]
+2025-09-26 17:55:46,824 - DEBUG - pending: deque([State(pc_initial=204 nstack_initial=0), State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,824 - DEBUG - stack: []
+2025-09-26 17:55:46,824 - DEBUG - state.pc_initial: State(pc_initial=204 nstack_initial=0)
+2025-09-26 17:55:46,824 - DEBUG - dispatch pc=204, inst=LOAD_GLOBAL(arg=0, lineno=1151)
+2025-09-26 17:55:46,825 - DEBUG - stack []
+2025-09-26 17:55:46,825 - DEBUG - dispatch pc=214, inst=LOAD_ATTR(arg=4, lineno=1151)
+2025-09-26 17:55:46,825 - DEBUG - stack ['$204load_global.0']
+2025-09-26 17:55:46,825 - DEBUG - dispatch pc=234, inst=PUSH_NULL(arg=None, lineno=1151)
+2025-09-26 17:55:46,825 - DEBUG - stack ['$214load_attr.1']
+2025-09-26 17:55:46,825 - DEBUG - dispatch pc=236, inst=LOAD_FAST(arg=3, lineno=1151)
+2025-09-26 17:55:46,825 - DEBUG - stack ['$214load_attr.1', '$null$234.2']
+2025-09-26 17:55:46,825 - DEBUG - dispatch pc=238, inst=CALL(arg=1, lineno=1151)
+2025-09-26 17:55:46,825 - DEBUG - stack ['$214load_attr.1', '$null$234.2', '$x0236.3']
+2025-09-26 17:55:46,826 - DEBUG - dispatch pc=246, inst=LOAD_GLOBAL(arg=0, lineno=1151)
+2025-09-26 17:55:46,826 - DEBUG - stack ['$238call.4']
+2025-09-26 17:55:46,826 - DEBUG - dispatch pc=256, inst=LOAD_ATTR(arg=4, lineno=1151)
+2025-09-26 17:55:46,826 - DEBUG - stack ['$238call.4', '$246load_global.5']
+2025-09-26 17:55:46,826 - DEBUG - dispatch pc=276, inst=PUSH_NULL(arg=None, lineno=1151)
+2025-09-26 17:55:46,826 - DEBUG - stack ['$238call.4', '$256load_attr.6']
+2025-09-26 17:55:46,826 - DEBUG - dispatch pc=278, inst=LOAD_FAST(arg=4, lineno=1151)
+2025-09-26 17:55:46,826 - DEBUG - stack ['$238call.4', '$256load_attr.6', '$null$276.7']
+2025-09-26 17:55:46,826 - DEBUG - dispatch pc=280, inst=CALL(arg=1, lineno=1151)
+2025-09-26 17:55:46,827 - DEBUG - stack ['$238call.4', '$256load_attr.6', '$null$276.7', '$x1278.8']
+2025-09-26 17:55:46,827 - DEBUG - dispatch pc=288, inst=COMPARE_OP(arg=103, lineno=1151)
+2025-09-26 17:55:46,827 - DEBUG - stack ['$238call.4', '$280call.9']
+2025-09-26 17:55:46,827 - DEBUG - dispatch pc=292, inst=RETURN_VALUE(arg=None, lineno=1151)
+2025-09-26 17:55:46,827 - DEBUG - stack ['$288compare_op.10']
+2025-09-26 17:55:46,827 - DEBUG - end state. edges=[]
+2025-09-26 17:55:46,827 - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=0)])
+2025-09-26 17:55:46,827 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:55:46,827 - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=32 nstack_initial=1): {'$phi32.0'},
+             State(pc_initial=42 nstack_initial=0): set(),
+             State(pc_initial=44 nstack_initial=1): set(),
+             State(pc_initial=48 nstack_initial=0): set(),
+             State(pc_initial=52 nstack_initial=0): set(),
+             State(pc_initial=80 nstack_initial=1): {'$phi80.0'},
+             State(pc_initial=90 nstack_initial=0): set(),
+             State(pc_initial=92 nstack_initial=1): set(),
+             State(pc_initial=96 nstack_initial=0): set(),
+             State(pc_initial=100 nstack_initial=0): set(),
+             State(pc_initial=114 nstack_initial=0): set(),
+             State(pc_initial=204 nstack_initial=0): set()})
+2025-09-26 17:55:46,828 - DEBUG - defmap: {'$phi32.0': State(pc_initial=0 nstack_initial=0),
+ '$phi44.0': State(pc_initial=0 nstack_initial=0),
+ '$phi80.0': State(pc_initial=52 nstack_initial=0),
+ '$phi92.0': State(pc_initial=52 nstack_initial=0)}
+2025-09-26 17:55:46,828 - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi44.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))},
+             '$phi92.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}})
+2025-09-26 17:55:46,828 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi44.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+             '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))},
+             '$phi92.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}})
+2025-09-26 17:55:46,829 - DEBUG - keep phismap: {'$phi32.0': {('$x018.5', State(pc_initial=0 nstack_initial=0))},
+ '$phi80.0': {('$x166.5', State(pc_initial=52 nstack_initial=0))}}
+2025-09-26 17:55:46,829 - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=0 nstack_initial=0): {'$phi32.0': '$x018.5'},
+             State(pc_initial=52 nstack_initial=0): {'$phi80.0': '$x166.5'}})
+2025-09-26 17:55:46,830 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:55:46,830 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'value': '$8binary_subscr.2'}), (14, {'res': '$threshold14.3'}), (16, {'value': '$threshold14.3', 'res': '$16unary_negative.4'}), (18, {'res': '$x018.5'}), (24, {'lhs': '$16unary_negative.4', 'rhs': '$x018.5', 'res': '$24compare_op.6'}), (28, {'pred': '$24compare_op.6'})), outgoing_phis={'$phi32.0': '$x018.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={32: ('$x018.5',), 44: ('$x018.5',)})
+2025-09-26 17:55:46,830 - DEBUG - block_infos State(pc_initial=32 nstack_initial=1):
+AdaptBlockInfo(insts=((32, {'res': '$threshold32.1'}), (34, {'lhs': '$phi32.0', 'rhs': '$threshold32.1', 'res': '$34compare_op.2'}), (38, {'pred': '$34compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={42: (), 52: ()})
+2025-09-26 17:55:46,830 - DEBUG - block_infos State(pc_initial=42 nstack_initial=0):
+AdaptBlockInfo(insts=((42, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={48: ()})
+2025-09-26 17:55:46,830 - DEBUG - block_infos State(pc_initial=44 nstack_initial=1):
+AdaptBlockInfo(insts=((46, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={52: ()})
+2025-09-26 17:55:46,831 - DEBUG - block_infos State(pc_initial=48 nstack_initial=0):
+AdaptBlockInfo(insts=((48, {'res': '$const48.0.1'}), (50, {'value': '$const48.0.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={52: ()})
+2025-09-26 17:55:46,831 - DEBUG - block_infos State(pc_initial=52 nstack_initial=0):
+AdaptBlockInfo(insts=((52, {'res': '$x52.0'}), (54, {'res': '$const54.1.2'}), (56, {'index': '$const54.1.2', 'target': '$x52.0', 'res': '$56binary_subscr.2'}), (60, {'value': '$56binary_subscr.2'}), (62, {'res': '$threshold62.3'}), (64, {'value': '$threshold62.3', 'res': '$64unary_negative.4'}), (66, {'res': '$x166.5'}), (72, {'lhs': '$64unary_negative.4', 'rhs': '$x166.5', 'res': '$72compare_op.6'}), (76, {'pred': '$72compare_op.6'})), outgoing_phis={'$phi80.0': '$x166.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={80: ('$x166.5',), 92: ('$x166.5',)})
+2025-09-26 17:55:46,831 - DEBUG - block_infos State(pc_initial=80 nstack_initial=1):
+AdaptBlockInfo(insts=((80, {'res': '$threshold80.1'}), (82, {'lhs': '$phi80.0', 'rhs': '$threshold80.1', 'res': '$82compare_op.2'}), (86, {'pred': '$82compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={90: (), 100: ()})
+2025-09-26 17:55:46,831 - DEBUG - block_infos State(pc_initial=90 nstack_initial=0):
+AdaptBlockInfo(insts=((90, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={96: ()})
+2025-09-26 17:55:46,831 - DEBUG - block_infos State(pc_initial=92 nstack_initial=1):
+AdaptBlockInfo(insts=((94, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={100: ()})
+2025-09-26 17:55:46,832 - DEBUG - block_infos State(pc_initial=96 nstack_initial=0):
+AdaptBlockInfo(insts=((96, {'res': '$const96.0.1'}), (98, {'value': '$const96.0.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={100: ()})
+2025-09-26 17:55:46,832 - DEBUG - block_infos State(pc_initial=100 nstack_initial=0):
+AdaptBlockInfo(insts=((100, {'res': '$zero_pos100.0'}), (102, {'val': '$zero_pos100.0', 'res': '$102to_bool.1'}), (110, {'pred': '$102to_bool.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={114: (), 204: ()})
+2025-09-26 17:55:46,832 - DEBUG - block_infos State(pc_initial=114 nstack_initial=0):
+AdaptBlockInfo(insts=((114, {'idx': 0, 'res': '$114load_global.0'}), (124, {'item': '$114load_global.0', 'res': '$124load_attr.1'}), (144, {}), (146, {'res': '$x0146.3'}), (148, {'func': '$124load_attr.1', 'args': ['$x0146.3'], 'kw_names': None, 'res': '$148call.4'}), (156, {'idx': 0, 'res': '$156load_global.5'}), (166, {'item': '$156load_global.5', 'res': '$166load_attr.6'}), (186, {}), (188, {'res': '$x1188.8'}), (190, {'func': '$166load_attr.6', 'args': ['$x1188.8'], 'kw_names': None, 'res': '$190call.9'}), (198, {'lhs': '$148call.4', 'rhs': '$190call.9', 'res': '$198compare_op.10'}), (202, {'retval': '$198compare_op.10', 'castval': '$202return_value.11'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:55:46,832 - DEBUG - block_infos State(pc_initial=204 nstack_initial=0):
+AdaptBlockInfo(insts=((204, {'idx': 0, 'res': '$204load_global.0'}), (214, {'item': '$204load_global.0', 'res': '$214load_attr.1'}), (234, {}), (236, {'res': '$x0236.3'}), (238, {'func': '$214load_attr.1', 'args': ['$x0236.3'], 'kw_names': None, 'res': '$238call.4'}), (246, {'idx': 0, 'res': '$246load_global.5'}), (256, {'item': '$246load_global.5', 'res': '$256load_attr.6'}), (276, {}), (278, {'res': '$x1278.8'}), (280, {'func': '$256load_attr.6', 'args': ['$x1278.8'], 'kw_names': None, 'res': '$280call.9'}), (288, {'lhs': '$238call.4', 'rhs': '$280call.9', 'res': '$288compare_op.10'}), (292, {'retval': '$288compare_op.10', 'castval': '$292return_value.11'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:55:46,834 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    threshold = arg(1, name=threshold)       ['threshold']
+    zero_pos = arg(2, name=zero_pos)         ['zero_pos']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    x0 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$const6.1.1', 'x', 'x0']
+    $16unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$16unary_negative.4', 'threshold']
+    $24compare_op.6 = $16unary_negative.4 <= x0 ['$16unary_negative.4', '$24compare_op.6', 'x0']
+    $bool28 = global(bool: <class 'bool'>)   ['$bool28']
+    $28pred = call $bool28($24compare_op.6, func=$bool28, args=(Var($24compare_op.6, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$24compare_op.6', '$28pred', '$bool28']
+    $phi32.0 = x0                            ['$phi32.0', 'x0']
+    branch $28pred, 32, 44                   ['$28pred']
+label 32:
+    $34compare_op.2 = $phi32.0 <= threshold  ['$34compare_op.2', '$phi32.0', 'threshold']
+    $bool38 = global(bool: <class 'bool'>)   ['$bool38']
+    $38pred = call $bool38($34compare_op.2, func=$bool38, args=(Var($34compare_op.2, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$34compare_op.2', '$38pred', '$bool38']
+    branch $38pred, 42, 52                   ['$38pred']
+label 42:
+    jump 48                                  []
+label 44:
+    jump 52                                  []
+label 48:
+    x0 = const(int, 0)                       ['x0']
+    jump 52                                  []
+label 52:
+    $const54.1.2 = const(int, -1)            ['$const54.1.2']
+    x1 = getitem(value=x, index=$const54.1.2, fn=<built-in function getitem>) ['$const54.1.2', 'x', 'x1']
+    $64unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$64unary_negative.4', 'threshold']
+    $72compare_op.6 = $64unary_negative.4 <= x1 ['$64unary_negative.4', '$72compare_op.6', 'x1']
+    $bool76 = global(bool: <class 'bool'>)   ['$bool76']
+    $76pred = call $bool76($72compare_op.6, func=$bool76, args=(Var($72compare_op.6, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$72compare_op.6', '$76pred', '$bool76']
+    $phi80.0 = x1                            ['$phi80.0', 'x1']
+    branch $76pred, 80, 92                   ['$76pred']
+label 80:
+    $82compare_op.2 = $phi80.0 <= threshold  ['$82compare_op.2', '$phi80.0', 'threshold']
+    $bool86 = global(bool: <class 'bool'>)   ['$bool86']
+    $86pred = call $bool86($82compare_op.2, func=$bool86, args=(Var($82compare_op.2, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$82compare_op.2', '$86pred', '$bool86']
+    branch $86pred, 90, 100                  ['$86pred']
+label 90:
+    jump 96                                  []
+label 92:
+    jump 100                                 []
+label 96:
+    x1 = const(int, 0)                       ['x1']
+    jump 100                                 []
+label 100:
+    $bool110 = global(bool: <class 'bool'>)  ['$bool110']
+    $110pred = call $bool110(zero_pos, func=$bool110, args=(Var(zero_pos, audio.py:1137),), kws=(), vararg=None, varkwarg=None, target=None) ['$110pred', '$bool110', 'zero_pos']
+    branch $110pred, 114, 204                ['$110pred']
+label 114:
+    $114load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$114load_global.0']
+    $124load_attr.1 = getattr(value=$114load_global.0, attr=signbit) ['$114load_global.0', '$124load_attr.1']
+    $148call.4 = call $124load_attr.1(x0, func=$124load_attr.1, args=[Var(x0, audio.py:1140)], kws=(), vararg=None, varkwarg=None, target=None) ['$124load_attr.1', '$148call.4', 'x0']
+    $156load_global.5 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$156load_global.5']
+    $166load_attr.6 = getattr(value=$156load_global.5, attr=signbit) ['$156load_global.5', '$166load_attr.6']
+    $190call.9 = call $166load_attr.6(x1, func=$166load_attr.6, args=[Var(x1, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$166load_attr.6', '$190call.9', 'x1']
+    $198compare_op.10 = $148call.4 != $190call.9 ['$148call.4', '$190call.9', '$198compare_op.10']
+    $202return_value.11 = cast(value=$198compare_op.10) ['$198compare_op.10', '$202return_value.11']
+    return $202return_value.11               ['$202return_value.11']
+label 204:
+    $204load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$204load_global.0']
+    $214load_attr.1 = getattr(value=$204load_global.0, attr=sign) ['$204load_global.0', '$214load_attr.1']
+    $238call.4 = call $214load_attr.1(x0, func=$214load_attr.1, args=[Var(x0, audio.py:1140)], kws=(), vararg=None, varkwarg=None, target=None) ['$214load_attr.1', '$238call.4', 'x0']
+    $246load_global.5 = global(np: <module 'numpy' from 'C:\\Users\\y.stepanov\\PycharmProjects\\ai_transcribe\\venv\\Lib\\site-packages\\numpy\\__init__.py'>) ['$246load_global.5']
+    $256load_attr.6 = getattr(value=$246load_global.5, attr=sign) ['$246load_global.5', '$256load_attr.6']
+    $280call.9 = call $256load_attr.6(x1, func=$256load_attr.6, args=[Var(x1, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$256load_attr.6', '$280call.9', 'x1']
+    $288compare_op.10 = $238call.4 != $280call.9 ['$238call.4', '$280call.9', '$288compare_op.10']
+    $292return_value.11 = cast(value=$288compare_op.10) ['$288compare_op.10', '$292return_value.11']
+    return $292return_value.11               ['$292return_value.11']
+
+2025-09-26 17:55:47,210 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1023)
+           2	RESUME(arg=0, lineno=1023)
+           4	LOAD_FAST(arg=0, lineno=1026)
+           6	LOAD_CONST(arg=1, lineno=1026)
+           8	BINARY_SUBSCR(arg=None, lineno=1026)
+          12	LOAD_FAST(arg=0, lineno=1026)
+          14	LOAD_CONST(arg=2, lineno=1026)
+          16	BINARY_SUBSCR(arg=None, lineno=1026)
+          20	COMPARE_OP(arg=132, lineno=1026)
+          24	LOAD_FAST(arg=0, lineno=1026)
+          26	LOAD_CONST(arg=1, lineno=1026)
+          28	BINARY_SUBSCR(arg=None, lineno=1026)
+          32	LOAD_FAST(arg=0, lineno=1026)
+          34	LOAD_CONST(arg=3, lineno=1026)
+          36	BINARY_SUBSCR(arg=None, lineno=1026)
+          40	COMPARE_OP(arg=172, lineno=1026)
+          44	BINARY_OP(arg=1, lineno=1026)
+          48	RETURN_VALUE(arg=None, lineno=1026)
+2025-09-26 17:55:47,210 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:55:47,211 - DEBUG - stack: []
+2025-09-26 17:55:47,211 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:55:47,211 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1023)
+2025-09-26 17:55:47,211 - DEBUG - stack []
+2025-09-26 17:55:47,212 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1023)
+2025-09-26 17:55:47,212 - DEBUG - stack []
+2025-09-26 17:55:47,212 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:55:47,212 - DEBUG - stack []
+2025-09-26 17:55:47,212 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1026)
+2025-09-26 17:55:47,212 - DEBUG - stack ['$x4.0']
+2025-09-26 17:55:47,213 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:55:47,213 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:55:47,213 - DEBUG - dispatch pc=12, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:55:47,213 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:55:47,213 - DEBUG - dispatch pc=14, inst=LOAD_CONST(arg=2, lineno=1026)
+2025-09-26 17:55:47,213 - DEBUG - stack ['$8binary_subscr.2', '$x12.3']
+2025-09-26 17:55:47,214 - DEBUG - dispatch pc=16, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:55:47,214 - DEBUG - stack ['$8binary_subscr.2', '$x12.3', '$const14.4.2']
+2025-09-26 17:55:47,214 - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=132, lineno=1026)
+2025-09-26 17:55:47,214 - DEBUG - stack ['$8binary_subscr.2', '$16binary_subscr.5']
+2025-09-26 17:55:47,214 - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:55:47,214 - DEBUG - stack ['$20compare_op.6']
+2025-09-26 17:55:47,214 - DEBUG - dispatch pc=26, inst=LOAD_CONST(arg=1, lineno=1026)
+2025-09-26 17:55:47,215 - DEBUG - stack ['$20compare_op.6', '$x24.7']
+2025-09-26 17:55:47,215 - DEBUG - dispatch pc=28, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:55:47,216 - DEBUG - stack ['$20compare_op.6', '$x24.7', '$const26.8.1']
+2025-09-26 17:55:47,216 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=0, lineno=1026)
+2025-09-26 17:55:47,216 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9']
+2025-09-26 17:55:47,216 - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=3, lineno=1026)
+2025-09-26 17:55:47,217 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10']
+2025-09-26 17:55:47,217 - DEBUG - dispatch pc=36, inst=BINARY_SUBSCR(arg=None, lineno=1026)
+2025-09-26 17:55:47,217 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10', '$const34.11.3']
+2025-09-26 17:55:47,217 - DEBUG - dispatch pc=40, inst=COMPARE_OP(arg=172, lineno=1026)
+2025-09-26 17:55:47,217 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$36binary_subscr.12']
+2025-09-26 17:55:47,218 - DEBUG - dispatch pc=44, inst=BINARY_OP(arg=1, lineno=1026)
+2025-09-26 17:55:47,218 - DEBUG - stack ['$20compare_op.6', '$40compare_op.13']
+2025-09-26 17:55:47,218 - DEBUG - dispatch pc=48, inst=RETURN_VALUE(arg=None, lineno=1026)
+2025-09-26 17:55:47,218 - DEBUG - stack ['$binop_and_44.14']
+2025-09-26 17:55:47,218 - DEBUG - end state. edges=[]
+2025-09-26 17:55:47,218 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:55:47,218 - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2025-09-26 17:55:47,219 - DEBUG - defmap: {}
+2025-09-26 17:55:47,219 - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:55:47,219 - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:55:47,219 - DEBUG - keep phismap: {}
+2025-09-26 17:55:47,219 - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2025-09-26 17:55:47,219 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:55:47,219 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'res': '$x12.3'}), (14, {'res': '$const14.4.2'}), (16, {'index': '$const14.4.2', 'target': '$x12.3', 'res': '$16binary_subscr.5'}), (20, {'lhs': '$8binary_subscr.2', 'rhs': '$16binary_subscr.5', 'res': '$20compare_op.6'}), (24, {'res': '$x24.7'}), (26, {'res': '$const26.8.1'}), (28, {'index': '$const26.8.1', 'target': '$x24.7', 'res': '$28binary_subscr.9'}), (32, {'res': '$x32.10'}), (34, {'res': '$const34.11.3'}), (36, {'index': '$const34.11.3', 'target': '$x32.10', 'res': '$36binary_subscr.12'}), (40, {'lhs': '$28binary_subscr.9', 'rhs': '$36binary_subscr.12', 'res': '$40compare_op.13'}), (44, {'op': '&', 'lhs': '$20compare_op.6', 'rhs': '$40compare_op.13', 'res': '$binop_and_44.14'}), (48, {'retval': '$binop_and_44.14', 'castval': '$48return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:55:47,220 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    $8binary_subscr.2 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$8binary_subscr.2', '$const6.1.1', 'x']
+    $const14.4.2 = const(int, -1)            ['$const14.4.2']
+    $16binary_subscr.5 = getitem(value=x, index=$const14.4.2, fn=<built-in function getitem>) ['$16binary_subscr.5', '$const14.4.2', 'x']
+    $20compare_op.6 = $8binary_subscr.2 > $16binary_subscr.5 ['$16binary_subscr.5', '$20compare_op.6', '$8binary_subscr.2']
+    $const26.8.1 = const(int, 0)             ['$const26.8.1']
+    $28binary_subscr.9 = getitem(value=x, index=$const26.8.1, fn=<built-in function getitem>) ['$28binary_subscr.9', '$const26.8.1', 'x']
+    $const34.11.3 = const(int, 1)            ['$const34.11.3']
+    $36binary_subscr.12 = getitem(value=x, index=$const34.11.3, fn=<built-in function getitem>) ['$36binary_subscr.12', '$const34.11.3', 'x']
+    $40compare_op.13 = $28binary_subscr.9 >= $36binary_subscr.12 ['$28binary_subscr.9', '$36binary_subscr.12', '$40compare_op.13']
+    $binop_and_44.14 = $20compare_op.6 & $40compare_op.13 ['$20compare_op.6', '$40compare_op.13', '$binop_and_44.14']
+    $48return_value.15 = cast(value=$binop_and_44.14) ['$48return_value.15', '$binop_and_44.14']
+    return $48return_value.15                ['$48return_value.15']
+
+2025-09-26 17:55:47,221 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1029)
+           2	RESUME(arg=0, lineno=1029)
+           4	LOAD_FAST(arg=0, lineno=1032)
+           6	LOAD_CONST(arg=1, lineno=1032)
+           8	BINARY_SUBSCR(arg=None, lineno=1032)
+          12	LOAD_FAST(arg=0, lineno=1032)
+          14	LOAD_CONST(arg=2, lineno=1032)
+          16	BINARY_SUBSCR(arg=None, lineno=1032)
+          20	COMPARE_OP(arg=2, lineno=1032)
+          24	LOAD_FAST(arg=0, lineno=1032)
+          26	LOAD_CONST(arg=1, lineno=1032)
+          28	BINARY_SUBSCR(arg=None, lineno=1032)
+          32	LOAD_FAST(arg=0, lineno=1032)
+          34	LOAD_CONST(arg=3, lineno=1032)
+          36	BINARY_SUBSCR(arg=None, lineno=1032)
+          40	COMPARE_OP(arg=42, lineno=1032)
+          44	BINARY_OP(arg=1, lineno=1032)
+          48	RETURN_VALUE(arg=None, lineno=1032)
+2025-09-26 17:55:47,221 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2025-09-26 17:55:47,222 - DEBUG - stack: []
+2025-09-26 17:55:47,222 - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2025-09-26 17:55:47,222 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1029)
+2025-09-26 17:55:47,222 - DEBUG - stack []
+2025-09-26 17:55:47,222 - DEBUG - dispatch pc=2, inst=RESUME(arg=0, lineno=1029)
+2025-09-26 17:55:47,222 - DEBUG - stack []
+2025-09-26 17:55:47,222 - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:55:47,222 - DEBUG - stack []
+2025-09-26 17:55:47,223 - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=1032)
+2025-09-26 17:55:47,223 - DEBUG - stack ['$x4.0']
+2025-09-26 17:55:47,223 - DEBUG - dispatch pc=8, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:55:47,223 - DEBUG - stack ['$x4.0', '$const6.1.1']
+2025-09-26 17:55:47,223 - DEBUG - dispatch pc=12, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:55:47,223 - DEBUG - stack ['$8binary_subscr.2']
+2025-09-26 17:55:47,223 - DEBUG - dispatch pc=14, inst=LOAD_CONST(arg=2, lineno=1032)
+2025-09-26 17:55:47,223 - DEBUG - stack ['$8binary_subscr.2', '$x12.3']
+2025-09-26 17:55:47,224 - DEBUG - dispatch pc=16, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:55:47,224 - DEBUG - stack ['$8binary_subscr.2', '$x12.3', '$const14.4.2']
+2025-09-26 17:55:47,224 - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=2, lineno=1032)
+2025-09-26 17:55:47,224 - DEBUG - stack ['$8binary_subscr.2', '$16binary_subscr.5']
+2025-09-26 17:55:47,224 - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:55:47,224 - DEBUG - stack ['$20compare_op.6']
+2025-09-26 17:55:47,224 - DEBUG - dispatch pc=26, inst=LOAD_CONST(arg=1, lineno=1032)
+2025-09-26 17:55:47,224 - DEBUG - stack ['$20compare_op.6', '$x24.7']
+2025-09-26 17:55:47,224 - DEBUG - dispatch pc=28, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:55:47,224 - DEBUG - stack ['$20compare_op.6', '$x24.7', '$const26.8.1']
+2025-09-26 17:55:47,225 - DEBUG - dispatch pc=32, inst=LOAD_FAST(arg=0, lineno=1032)
+2025-09-26 17:55:47,225 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9']
+2025-09-26 17:55:47,225 - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=3, lineno=1032)
+2025-09-26 17:55:47,225 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10']
+2025-09-26 17:55:47,225 - DEBUG - dispatch pc=36, inst=BINARY_SUBSCR(arg=None, lineno=1032)
+2025-09-26 17:55:47,225 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$x32.10', '$const34.11.3']
+2025-09-26 17:55:47,225 - DEBUG - dispatch pc=40, inst=COMPARE_OP(arg=42, lineno=1032)
+2025-09-26 17:55:47,225 - DEBUG - stack ['$20compare_op.6', '$28binary_subscr.9', '$36binary_subscr.12']
+2025-09-26 17:55:47,226 - DEBUG - dispatch pc=44, inst=BINARY_OP(arg=1, lineno=1032)
+2025-09-26 17:55:47,226 - DEBUG - stack ['$20compare_op.6', '$40compare_op.13']
+2025-09-26 17:55:47,226 - DEBUG - dispatch pc=48, inst=RETURN_VALUE(arg=None, lineno=1032)
+2025-09-26 17:55:47,226 - DEBUG - stack ['$binop_and_44.14']
+2025-09-26 17:55:47,226 - DEBUG - end state. edges=[]
+2025-09-26 17:55:47,226 - DEBUG - -------------------------Prune PHIs-------------------------
+2025-09-26 17:55:47,227 - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2025-09-26 17:55:47,227 - DEBUG - defmap: {}
+2025-09-26 17:55:47,227 - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:55:47,227 - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2025-09-26 17:55:47,227 - DEBUG - keep phismap: {}
+2025-09-26 17:55:47,227 - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2025-09-26 17:55:47,227 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2025-09-26 17:55:47,227 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {}), (4, {'res': '$x4.0'}), (6, {'res': '$const6.1.1'}), (8, {'index': '$const6.1.1', 'target': '$x4.0', 'res': '$8binary_subscr.2'}), (12, {'res': '$x12.3'}), (14, {'res': '$const14.4.2'}), (16, {'index': '$const14.4.2', 'target': '$x12.3', 'res': '$16binary_subscr.5'}), (20, {'lhs': '$8binary_subscr.2', 'rhs': '$16binary_subscr.5', 'res': '$20compare_op.6'}), (24, {'res': '$x24.7'}), (26, {'res': '$const26.8.1'}), (28, {'index': '$const26.8.1', 'target': '$x24.7', 'res': '$28binary_subscr.9'}), (32, {'res': '$x32.10'}), (34, {'res': '$const34.11.3'}), (36, {'index': '$const34.11.3', 'target': '$x32.10', 'res': '$36binary_subscr.12'}), (40, {'lhs': '$28binary_subscr.9', 'rhs': '$36binary_subscr.12', 'res': '$40compare_op.13'}), (44, {'op': '&', 'lhs': '$20compare_op.6', 'rhs': '$40compare_op.13', 'res': '$binop_and_44.14'}), (48, {'retval': '$binop_and_44.14', 'castval': '$48return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2025-09-26 17:55:47,228 - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const6.1.1 = const(int, 0)              ['$const6.1.1']
+    $8binary_subscr.2 = getitem(value=x, index=$const6.1.1, fn=<built-in function getitem>) ['$8binary_subscr.2', '$const6.1.1', 'x']
+    $const14.4.2 = const(int, -1)            ['$const14.4.2']
+    $16binary_subscr.5 = getitem(value=x, index=$const14.4.2, fn=<built-in function getitem>) ['$16binary_subscr.5', '$const14.4.2', 'x']
+    $20compare_op.6 = $8binary_subscr.2 < $16binary_subscr.5 ['$16binary_subscr.5', '$20compare_op.6', '$8binary_subscr.2']
+    $const26.8.1 = const(int, 0)             ['$const26.8.1']
+    $28binary_subscr.9 = getitem(value=x, index=$const26.8.1, fn=<built-in function getitem>) ['$28binary_subscr.9', '$const26.8.1', 'x']
+    $const34.11.3 = const(int, 1)            ['$const34.11.3']
+    $36binary_subscr.12 = getitem(value=x, index=$const34.11.3, fn=<built-in function getitem>) ['$36binary_subscr.12', '$const34.11.3', 'x']
+    $40compare_op.13 = $28binary_subscr.9 <= $36binary_subscr.12 ['$28binary_subscr.9', '$36binary_subscr.12', '$40compare_op.13']
+    $binop_and_44.14 = $20compare_op.6 & $40compare_op.13 ['$20compare_op.6', '$40compare_op.13', '$binop_and_44.14']
+    $48return_value.15 = cast(value=$binop_and_44.14) ['$48return_value.15', '$binop_and_44.14']
+    return $48return_value.15                ['$48return_value.15']
+
+2025-09-26 17:55:47,595 - DEBUG - УЛУЧШЕНИЕ АУДИО: Параметры Demucs: {'model': 'htdemucs', 'shifts': 4, 'overlap': 0.4, 'jobs': 4}
+2025-09-26 17:55:47,595 - DEBUG - УЛУЧШЕНИЕ АУДИО: Попытка улучшения файла (после предочистки): examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:55:47,595 - DEBUG - УЛУЧШЕНИЕ АУДИО: Импортируем Demucs...
+2025-09-26 17:55:49,220 - DEBUG - Loading FFmpeg6
+2025-09-26 17:55:49,222 - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:55:49,224 - DEBUG - Loading FFmpeg5
+2025-09-26 17:55:49,225 - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:55:49,227 - DEBUG - Loading FFmpeg4
+2025-09-26 17:55:49,228 - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+    ~~~~~~~~~^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torch\_ops.py", line 1478, in load_library
+    ctypes.CDLL(path)
+    ~~~~~~~~~~~^^^^^^
+  File "C:\Users\y.stepanov\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py", line 390, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ~~~~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: Could not find module 'C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2025-09-26 17:55:49,229 - DEBUG - Loading FFmpeg
+2025-09-26 17:55:49,229 - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "C:\Users\y.stepanov\PycharmProjects\ai_transcribe\venv\Lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2025-09-26 17:55:49,316 - DEBUG - УЛУЧШЕНИЕ АУДИО: Demucs успешно импортирован
+2025-09-26 17:55:49,316 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем Demucs для разделения вокала: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:55:50,018 - WARNING - УЛУЧШЕНИЕ АУДИО: Ошибка обработки с Demucs: Torch not compiled with CUDA enabled
+2025-09-26 17:55:50,019 - DEBUG - УЛУЧШЕНИЕ АУДИО: Используем librosa для выделения вокала: examples\ПОЗВОНИ МНЕ.mp3
+2025-09-26 17:55:50,445 - DEBUG - УЛУЧШЕНИЕ АУДИО: Создан файл с выделенным вокалом: examples\ПОЗВОНИ МНЕ_vocals.wav
+2025-09-26 17:55:50,457 - DEBUG - ТРАНСКРИПЦИЯ: Использован промпт: Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+
+Орфография и пунктуация: используй корректную русскую орфографию и пунктуацию (точки, запятые, вопросительные знаки). Сохраняй разговорные формы (например: «Чё») как в оригинале, но избегай искажённых слов (например «Посони» → «Позвони», если по звучанию это очевидно).
+2025-09-26 17:55:50,458 - DEBUG - ТРАНСКРИПЦИЯ: Попытка 1 - основной язык: ru
+2025-09-26 17:55:51,011 - DEBUG - Request options: {'method': 'post', 'url': '/audio/transcriptions', 'headers': {'Content-Type': 'multipart/form-data'}, 'files': [('file', SerializationIterator(index=0, iterator=SerializationIterator(index=0, iterator=<_io.BufferedReader name='examples\\ПОЗВОНИ МНЕ_vocals.wav'>)))], 'idempotency_key': 'stainless-python-retry-f3c09a6b-df1b-49a3-9968-6e6ee7267367', 'json_data': {'model': 'gpt-4o-transcribe', 'language': 'ru', 'prompt': 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.\n\nОрфография и пунктуация: используй корректную русскую орфографию и пунктуацию (точки, запятые, вопросительные знаки). Сохраняй разговорные формы (например: «Чё») как в оригинале, но избегай искажённых слов (например «Посони» → «Позвони», если по звучанию это очевидно).', 'response_format': 'text'}}
+2025-09-26 17:55:51,111 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/audio/transcriptions
+2025-09-26 17:55:51,111 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-09-26 17:55:51,197 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001314E75C590>
+2025-09-26 17:55:51,197 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001314E28DE20> server_hostname='api.openai.com' timeout=5.0
+2025-09-26 17:55:51,534 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001314E636990>
+2025-09-26 17:55:51,534 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:55:51,535 - DEBUG - send_request_headers.complete
+2025-09-26 17:55:51,535 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:55:51,540 - DEBUG - send_request_body.complete
+2025-09-26 17:55:51,540 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:55:55,909 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:55:55 GMT'), (b'Content-Type', b'text/plain; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'979'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'991'), (b'x-ratelimit-limit-requests', b'500'), (b'x-ratelimit-remaining-requests', b'499'), (b'x-ratelimit-reset-requests', b'120ms'), (b'x-request-id', b'req_fad364f4f58f484e8ca4ac7309f47704'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=URBHKZzKd10F1bLCx4nxzLxZzLIY1z11ErrwXCp7hyA-1758898555-1.0.1.1-pHH79uN94dmZRw2TKwh1A1PXg91oQIvsqgz2Il7wS4jUkdkuJmjc9DVFDFZZ_OQSQ31LAR3YDFfsF6f8jyhT4l_EUfInD_1wHzNDJZnUCdU; path=/; expires=Fri, 26-Sep-25 15:25:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=Lv99NI.7hIXxtXu82hvzBODefx6.NsEb3BOOa19jxUI-1758898555880-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98539acb7cf28dab-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:55:55,910 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2025-09-26 17:55:55,910 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:55:55,911 - DEBUG - receive_response_body.complete
+2025-09-26 17:55:55,911 - DEBUG - response_closed.started
+2025-09-26 17:55:55,911 - DEBUG - response_closed.complete
+2025-09-26 17:55:55,911 - DEBUG - HTTP Response: POST https://api.openai.com/v1/audio/transcriptions "200 OK" Headers([('date', 'Fri, 26 Sep 2025 14:55:55 GMT'), ('content-type', 'text/plain; charset=utf-8'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'yurisun'), ('openai-processing-ms', '979'), ('openai-project', 'proj_Llb21yVk5b2whxj0ZTkY3iYI'), ('openai-version', '2020-10-01'), ('x-envoy-upstream-service-time', '991'), ('x-ratelimit-limit-requests', '500'), ('x-ratelimit-remaining-requests', '499'), ('x-ratelimit-reset-requests', '120ms'), ('x-request-id', 'req_fad364f4f58f484e8ca4ac7309f47704'), ('x-openai-proxy-wasm', 'v0.1'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=URBHKZzKd10F1bLCx4nxzLxZzLIY1z11ErrwXCp7hyA-1758898555-1.0.1.1-pHH79uN94dmZRw2TKwh1A1PXg91oQIvsqgz2Il7wS4jUkdkuJmjc9DVFDFZZ_OQSQ31LAR3YDFfsF6f8jyhT4l_EUfInD_1wHzNDJZnUCdU; path=/; expires=Fri, 26-Sep-25 15:25:55 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=Lv99NI.7hIXxtXu82hvzBODefx6.NsEb3BOOa19jxUI-1758898555880-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '98539acb7cf28dab-HEL'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-09-26 17:55:55,912 - DEBUG - request_id: req_fad364f4f58f484e8ca4ac7309f47704
+2025-09-26 17:55:55,912 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:55,912 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+
+Орфография и пунктуация: используй корректную русскую орфографию и пунктуацию (точки, запятые, вопросительные знаки). Сохраняй разговорные формы (например: «Чё») как в оригинале, но избегай искажённых слов (например «Посони» → «Позвони», если по звучанию это очевидно).'
+2025-09-26 17:55:55,913 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:55,913 - DEBUG - ТРАНСКРИПЦИЯ: Результат 1: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.' (длина: 66)
+2025-09-26 17:55:56,224 - DEBUG - ТРАНСКРИПЦИЯ: Музыкальные признаки не обнаружены — пропускаем музыкальный промпт
+2025-09-26 17:55:56,224 - DEBUG - ФИЛЬТРАЦИЯ: Входной текст: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:56,224 - DEBUG - ФИЛЬТРАЦИЯ: Промпт: 'Дай дословную ПОЛНУЮ транскрипцию без перевода и перефразирования. Сохраняй язык оригинала, не смешивай языки. Не интерпретируй смысл, не сокращай, не исправляй. Если часть неразборчива — оставь как есть или пропусти без домыслов. ВНИМАНИЕ: Если это музыка с повторяющимся припевом - распознай ВСЕ повторения. Если это плач ребенка или нечеловеческие звуки - НЕ придумывай слова, верни пустую строку.
+
+Орфография и пунктуация: используй корректную русскую орфографию и пунктуацию (точки, запятые, вопросительные знаки). Сохраняй разговорные формы (например: «Чё») как в оригинале, но избегай искажённых слов (например «Посони» → «Позвони», если по звучанию это очевидно).'
+2025-09-26 17:55:56,225 - DEBUG - ФИЛЬТРАЦИЯ: Текст прошел фильтрацию: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:56,225 - DEBUG - ТРАНСКРИПЦИЯ: Применяем пост-обработку
+2025-09-26 17:55:56,225 - DEBUG - ПОСТ-ОБРАБОТКА: Исходный текст: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:56,228 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-2cd14d47-c011-42b3-9ce6-92b55757f91c', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — эксперт по коррекции текстов песен и транскрипций.\nТвоя задача — исправить ошибки в транскрипции песни, сохранив оригинальный смысл и стиль.\n\nПравила коррекции:\n1. Исправляй грамматические ошибки\n2. Восстанавливай недостающие слова по контексту\n3. Сохраняй ритм и стиль песни\n4. Не меняй смысл и эмоциональную окраску\n5. Сохраняй повторения (припевы)\n6. Исправляй только очевидные ошибки\n7. Сохраняй разговорные формы и просторечие как в оригинале (например: «Чё»)\n8. Предпочитай устойчивые выражения и идиомы (например: «не говори нет» вместо «не говори мне», если контекст песни допускает это лучше)\n9. Оформляй предложения корректной пунктуацией: точки, вопросы и запятые. Вопросительные интонации заканчивай знаком «?»\n10. Избегай ложных отрицаний: не меняй «мне выносишь» на «не выносишь», если смыслу и ритму больше соответствует дательный падеж «мне».\n\nОтвечай только исправленным текстом, без объяснений.'}, {'role': 'user', 'content': 'Исправь ошибки в транскрипции песни:\n\nПозвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'}], 'model': 'gpt-4o-mini', 'max_tokens': 500, 'temperature': 0.1}}
+2025-09-26 17:55:56,229 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:55:56,229 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:55:56,229 - DEBUG - send_request_headers.complete
+2025-09-26 17:55:56,230 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:55:56,230 - DEBUG - send_request_body.complete
+2025-09-26 17:55:56,230 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:55:57,373 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:55:57 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'807'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'846'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199534'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'139ms'), (b'x-request-id', b'req_3df791f7966f4548a151c3fc0efaaa97'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98539ae8cc338dab-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:55:57,374 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:55:57,374 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:55:57,390 - DEBUG - receive_response_body.complete
+2025-09-26 17:55:57,390 - DEBUG - response_closed.started
+2025-09-26 17:55:57,391 - DEBUG - response_closed.complete
+2025-09-26 17:55:57,391 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:55:57 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '807', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '846', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9999', 'x-ratelimit-remaining-tokens': '199534', 'x-ratelimit-reset-requests': '8.64s', 'x-ratelimit-reset-tokens': '139ms', 'x-request-id': 'req_3df791f7966f4548a151c3fc0efaaa97', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98539ae8cc338dab-HEL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:55:57,391 - DEBUG - request_id: req_3df791f7966f4548a151c3fc0efaaa97
+2025-09-26 17:55:57,398 - DEBUG - ПОСТ-ОБРАБОТКА: Исправленный текст: 'Позвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'
+2025-09-26 17:55:57,400 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-9c4659db-aece-4f07-a162-9c8ee288b3f2', 'json_data': {'messages': [{'role': 'system', 'content': 'Ты — специализированная система для анализа аудиозаписей.\nТвоя единственная задача — классифицировать входной аудиофайл в одну из категорий: музыка, речь, шум.\n\nВАЖНО: Ты анализируешь РЕЗУЛЬТАТ ТРАНСКРИПЦИИ аудиофайла, а не сам аудиофайл. Это означает, что:\n- Если в аудио была музыка с вокалом, то в транскрипции будут слова песни\n- Если в аудио была речь, то в транскрипции будет связный текст\n- Если в аудио был шум, то в транскрипции будет мало слов или галлюцинации\n\nКатегории классификации:\n\nМузыка (music):\n- Это песня, музыкальная композиция с вокалом\n- Характерные признаки в транскрипции:\n  * Повторяющиеся фразы или слова (припев)\n  * Рифмы и ритмические паттерны\n  * Музыкальные звуки: "ла-ла-ла", "на-на-на", "о-о-о", "а-а-а"\n  * Эмоциональные восклицания: "Ауф!", "Ой!", "Ах!"\n  * Короткие фразы без логической связи\n  * Слова, которые звучат как песня, а не как обычная речь\n  * Повторяющиеся слова или фразы (припев песни)\n  * Ритмические паттерны в тексте\n\nРечь (speech):\n- Это обычная речь, разговор, диалог\n- Характерные признаки в транскрипции:\n  * Связные предложения с логической структурой\n  * Обычные слова и фразы\n  * Знаки препинания: точки, запятые, восклицательные знаки\n  * Логическая последовательность мыслей\n  * Отсутствие повторяющихся музыкальных паттернов\n  * Естественная речь без ритма\n\nШум (noise):\n- Это неречевые звуки, шум, техника, плач ребенка\n- Характерные признаки в транскрипции:\n  * Очень короткие или бессмысленные фрагменты\n  * Отсутствие связной речи\n  * Случайные слова или звуки\n  * Описания звуков: "[Music]", "[звук]", "[шум]"\n  * Повторяющиеся гласные: "ааа", "ууу", "ооо" (детский плач)\n  * Повторяющиеся согласные: "шшш", "щщщ", "ссс", "ззз", "hhh"\n  * Бессмысленные фразы: "Всем новичкам, всем новичкам"\n  * Короткие бессвязные слова\n\nПримеры типовых шумов (не музыка и не речь):\n- Городской фон: движение транспорта, гул улицы, толпа, шаги\n- Звуки машин: двигатель, сигнал, шелест шин, торможение\n- Вода: дождь, шум волн, водопад, шипение воды\n- Ветер: завывание, свист ветра, порывы\n- Бытовые/механические: кондиционер, вентилятор, скрип дверей, стук, аплодисменты\n\nПравила классификации:\n1. Если транскрипция содержит связную речь с логической структурой → speech\n2. Если транскрипция содержит повторяющиеся фразы, рифмы, музыкальные звуки → music\n3. Если транскрипция короткая, бессвязная или содержит описания звуков → noise\n4. При сомнениях между music и speech: если есть повторения или музыкальные звуки → music\n5. Детский плач (ааа, ууу, ооо) → noise\n6. Белый шум с бессмысленными словами → noise\n\nВАЖНЫЕ ПРИМЕРЫ:\n- "Скажи мне, не говори мне, что ты гонишь" → music (песня с повторениями)\n- "Привет, как дела?" → speech (обычная речь)\n- "Ааааааа" → noise (детский плач)\n- "Всем новичкам, всем новичкам" → noise (белый шум)\n- "Find me, find me, You can find" → music (песня с припевом)\n\nФормат ответа:\nОтвечай только в формате JSON, без лишнего текста:\n{\n  "classification": "music | speech | noise",\n  "confidence": 0.0-1.0,\n  "reasoning": "Краткое объяснение выбора: какие признаки были решающими"\n}\n\nОграничения:\n- Не добавляй ничего, кроме JSON\n- Не предлагай альтернативных категорий\n- Всегда возвращай одно значение в поле "classification"\n- Уровень уверенности (confidence) должен отражать баланс признаков:\n  * 0.9–1.0 → очень высокая уверенность\n  * 0.6–0.89 → умеренная уверенность\n  * <0.6 → низкая уверенность, признаки неоднозначны'}, {'role': 'user', 'content': 'Проанализируй следующий транскрипт аудио и классифицируй его:\n\nПозвони мне, не говори мне, чё ты гонишь, снова мозг мне выносишь.'}], 'model': 'gpt-4o-mini', 'max_tokens': 200, 'temperature': 0.1}}
+2025-09-26 17:55:57,402 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-09-26 17:55:57,402 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-26 17:55:57,403 - DEBUG - send_request_headers.complete
+2025-09-26 17:55:57,403 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-26 17:55:57,403 - DEBUG - send_request_body.complete
+2025-09-26 17:55:57,403 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-26 17:56:00,356 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Fri, 26 Sep 2025 14:56:00 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'yurisun'), (b'openai-processing-ms', b'2610'), (b'openai-project', b'proj_Llb21yVk5b2whxj0ZTkY3iYI'), (b'openai-version', b'2020-10-01'), (b'x-envoy-upstream-service-time', b'2648'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'198490'), (b'x-ratelimit-reset-requests', b'16.101s'), (b'x-ratelimit-reset-tokens', b'453ms'), (b'x-request-id', b'req_a8d70b6e6853446d9532db2e4bfb4327'), (b'x-openai-proxy-wasm', b'v0.1'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'98539af01c5a8dab-HEL'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-09-26 17:56:00,357 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-26 17:56:00,357 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-26 17:56:00,364 - DEBUG - receive_response_body.complete
+2025-09-26 17:56:00,364 - DEBUG - response_closed.started
+2025-09-26 17:56:00,364 - DEBUG - response_closed.complete
+2025-09-26 17:56:00,364 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers({'date': 'Fri, 26 Sep 2025 14:56:00 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'access-control-expose-headers': 'X-Request-ID', 'openai-organization': 'yurisun', 'openai-processing-ms': '2610', 'openai-project': 'proj_Llb21yVk5b2whxj0ZTkY3iYI', 'openai-version': '2020-10-01', 'x-envoy-upstream-service-time': '2648', 'x-ratelimit-limit-requests': '10000', 'x-ratelimit-limit-tokens': '200000', 'x-ratelimit-remaining-requests': '9998', 'x-ratelimit-remaining-tokens': '198490', 'x-ratelimit-reset-requests': '16.101s', 'x-ratelimit-reset-tokens': '453ms', 'x-request-id': 'req_a8d70b6e6853446d9532db2e4bfb4327', 'x-openai-proxy-wasm': 'v0.1', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '98539af01c5a8dab-HEL', 'content-encoding': 'gzip', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-09-26 17:56:00,365 - DEBUG - request_id: req_a8d70b6e6853446d9532db2e4bfb4327
